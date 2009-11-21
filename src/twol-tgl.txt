@@ -25,11 +25,17 @@ i:h <=> _ %>:0 i ;
 
 ! man>bili --> mambili
 "Nasal assimilation"
-n:m <=> _ %>:0 @P.ACT3.ON@ b ; 
+n:m <=> _ %> b ; 
 
-! mambili --> mamili
-!"Nasal deletion"
-!b:0 <=> m _ @P.ACT3.ON@ ;
+!€ man%>bili
+!€ mam%>bili
+
+ mambili --> mamili
+"Nasal deletion"
+b:0 <=> m _ ;
+
+!€ mam%>bili
+!€ mam000ili
 
 ! %^UM>bili --> bumili
 !"Infix insertion"
