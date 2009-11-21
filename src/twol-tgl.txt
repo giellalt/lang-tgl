@@ -16,9 +16,6 @@ Sets
 
 Rules
 
-"Remove morpheme boundries"
-%>:0 <=> _ ;
-
 ! bili>in --> bilhin
 "Replace final 'i' with 'h' before suffixes beginning with 'i'" 
 i:h <=> _ %>:0 i ;
