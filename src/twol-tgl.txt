@@ -6,7 +6,7 @@ Alphabet
   R:p R:b R:t R:k
 
   @P.ACT3.ON@  @P.ACT1.ON@
-  %+:0 %> %^UM ;
+  %+:0 %>:0 %^UM:0 ;
 
 Sets
 
@@ -17,26 +17,30 @@ Sets
 Rules
 
 ! bili>in --> bilhin
-"Replace final 'i' with 'h' before suffixes beginning with 'i'" 
+"Replace final i with h before suffixes beginning with i" 
 i:h <=> _ %>:0 i ;
 
 !€ bili%>in
 !€ bilh0in
 
 ! man>bili --> mambili
+
 "Nasal assimilation"
-n:m <=> _ %> b: ; 
+n:m <=> _ %>:0 b: ; 
 
 !€ man%>bili
 !€ mam0bili
 
 ! mambili --> mamili
+
 "Nasal deletion"
 b:0 <=> :m %>:0 _ ;
 
 !€ mam%>bili
 !€ mam00ili
 
+
+	
 ! %^UM>bili --> bumili
 !"Infix insertion"
 !%^UM:0 <=> %>:0 _ @P.ACT1.ON@ ; 
