@@ -21,25 +21,28 @@ Rules
 i:h <=> _ %>:0 i ;
 
 !€ bili%>in
-!€ bilh00in
+!€ bilh0in
 
 ! man>bili --> mambili
 "Nasal assimilation"
-n:m <=> _ %> b ; 
+n:m <=> _ %> b: ; 
 
 !€ man%>bili
-!€ mam%>bili
+!€ mam0bili
 
- mambili --> mamili
+! mambili --> mamili
 "Nasal deletion"
-b:0 <=> m _ ;
+b:0 <=> :m %>:0 _ ;
 
 !€ mam%>bili
-!€ mam000ili
+!€ mam00ili
 
 ! %^UM>bili --> bumili
 !"Infix insertion"
 !%^UM:0 <=> %>:0 _ @P.ACT1.ON@ ; 
+
+!€ %^UM%>bili
+!€ 00bumili
 
 "R realisation as Consonant"
 R:CC <=> _ E: %+: CC ; where CC in Cons ;
