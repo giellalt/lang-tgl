@@ -20,6 +20,9 @@ Rules
 "Replace final 'i' with 'h' before suffixes beginning with 'i'" 
 i:h <=> _ %>:0 i ;
 
+!€ bili%>in
+!€ bilh00in
+
 ! man>bili --> mambili
 "Nasal assimilation"
 n:m <=> _ %>:0 @P.ACT3.ON@ b ; 
@@ -37,3 +40,4 @@ R:CC <=> _ E: %+: CC ; where CC in Cons ;
 
 "E realisation as Vowel"
 E:VV <=> _ %+: (Cons:) VV ; where VV in Vow ;
+
