@@ -1,0 +1,48 @@
+# *************************************************************** #
+# This is a makefile that builds the Faroese morphological parser #
+# *************************************************************** #
+
+LANG=tgl
+
+LEX = $(LANG)-lex.txt \
+	  verb-$(LANG)-lex.txt \
+	  verb-$(LANG)-morph.txt
+
+#	  propernoun-$(LANG)-lex.txt 
+#	  propernoun-$(LANG)-morph.txt 
+all: ../bin/$(LANG)-gen.hfst ../bin/$(LANG)-morph.hfst
+
+../tmp/lexc-all.txt: $(LEX)
+	cat $(LEX) > $@
+
+lexc-$(LANG).bin: ../bin/lexc-$(LANG).bin
+../bin/lexc-$(LANG).bin: ../tmp/lexc-all.txt
+	@echo
+	@echo "*** Building lexc-$(LANG).bin ***" ;
+	@echo
+	hfst-lexc < ../tmp/lexc-all.txt > $@
+
+twol-$(LANG).bin: ../bin/twol-$(LANG).bin
+../bin/twol-$(LANG).bin: twol-$(LANG).txt
+	@echo
+	@echo "*** Building twol-$(LANG).bin ***" ;
+	@echo
+	hfst-twolc twol-$(LANG).txt > $@ 
+
+
+$(LANG)-gen.hfst: ../bin/$(LANG)-gen.hfst 
+../bin/$(LANG)-gen.hfst: ../bin/twol-$(LANG).bin ../bin/lexc-$(LANG).bin
+	@echo
+	@echo "*** Building $(LANG)-gen.hfst ***" ;
+	@echo
+	hfst-compose-intersect -l ../bin/lexc-$(LANG).bin ../bin/twol-$(LANG).bin -o $@
+
+$(LANG)-morph.hfst: ../bin/$(LANG)-morph.hfst
+../bin/$(LANG)-morph.hfst: ../bin/$(LANG)-gen.hfst
+	@echo
+	@echo "*** Building $(LANG)-morph.hfst ***" ;
+	@echo
+	hfst-invert ../bin/$(LANG)-gen.hfst -o $@
+
+clean:
+	rm -f ../bin/* ../tmp/*
