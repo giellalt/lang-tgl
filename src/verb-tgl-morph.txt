@@ -20,5 +20,5 @@ LEXICON VConjReg
 +V+Imp+Obj1:%>a      #;  ! Imperative, Object focus #1
 +V+Imp+Obj2:%>an     #;  ! Imperative, Object focus #2
 +V+Imp+Obj3:%>i      #;  ! Imperative, Object focus #3
-
++V+INF:%^INF # ;
 

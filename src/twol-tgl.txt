@@ -6,13 +6,14 @@ Alphabet
   R:p R:b R:t R:k
 
   @P.ACT3.ON@  @P.ACT1.ON@
-  %+:0 %>:0 %^UM:0 ;
+  %+:0 %>:0 %^UM:0 %^INF:0 ;
 
 Sets
 
   Cons = p t k b ; 
   Vow = a e i o u ;
   Nas = m n ;
+  Segm = Cons Vow Nas ;
 
 Rules
 
@@ -39,7 +40,11 @@ b:0 <=> :m %>:0 _ ;
 !€ mam%>bili
 !€ mam00ili
 
+"Infixation"
+ %^INF:0 <=> #:0 Cons 0:u 0:m Segm+ _ ;
 
+
+!	7. X:0 <=> ___ +:0 C:C 0:u 0:m V:V
 	
 ! %^UM>bili --> bumili
 !"Infix insertion"
@@ -49,8 +54,10 @@ b:0 <=> :m %>:0 _ ;
 !€ 00bumili
 
 "R realisation as Consonant"
-R:CC <=> _ E: %+: CC ; where CC in Cons ;
+R:CC <=> _ E: %+: CC ; 
+	where CC in Cons ;
 
 "E realisation as Vowel"
-E:VV <=> _ %+: (Cons:) VV ; where VV in Vow ;
+E:VV <=> _ %+: (Cons:) VV ; 
+	where VV in Vow ;
 
