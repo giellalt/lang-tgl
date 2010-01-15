@@ -58,31 +58,31 @@ itgl.fst: ../bin/itgl.fst
 # This goal is to build the final analyser. It depends on all the files.
 
 tgl.fst: ../bin/tgl.fst
-../bin/tgl.fst: ../bin/tgl.save ../bin/caseconv.fst ../bin/tok.fst 
+../bin/tgl.fst: ../bin/tgl.save ../bin/inituppercase.fst ../bin/tok.fst 
 	@echo
 	@echo "*** Building tgl.fst ***" ;
 	@echo
 	@printf "read regex [[@\"../bin/tgl.save\"] .o. \
-	[@\"../bin/caseconv.fst\"]] ; \n\
+	[@\"../bin/inituppercase.fst\"]] ; \n\
 	save stack ../bin/tgl.fst \n\
 	quit \n" > ../../tmp/tgl-fst-script
 	$(XFST) < ../../tmp/tgl-fst-script
 	@rm -f ../../tmp/tgl-fst-script
 
 
-# The second goal is to build the caseconv.fst file
-# This goal depends on case.regex
+# The second goal is to build the inituppercase.fst file
+# This goal depends on inituppercase.regex
 
-caseconv.fst: ../bin/caseconv.fst
-../bin/caseconv.fst: case.regex
+inituppercase.fst: ../bin/inituppercase.fst
+../bin/inituppercase.fst: inituppercase.regex
 	@echo
-	@echo "*** Building caseconv.fst ***" ;
+	@echo "*** Building inituppercase.fst ***" ;
 	@echo
-	@printf "read regex < case.regex \n\
-	save stack ../bin/caseconv.fst \n\
-	quit \n" > ../../tmp/caseconv-script
-	$(XFST) < ../../tmp/caseconv-script
-	@rm -f ../../tmp/caseconv-script
+	@printf "read regex < inituppercase.regex \n\
+	save stack ../bin/inituppercase.fst \n\
+	quit \n" > ../../tmp/inituppercase-script
+	$(XFST) < ../../tmp/inituppercase-script
+	@rm -f ../../tmp/inituppercase-script
 
 
 # Another goal is to build a preprocessor.This goal depends on tok.txt
