@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=tgl
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-tgl
+Description: Finite-state language processing tools for Tagalog
+URL: http://divvun.no/doc/index.html
+Version: @VERSION@
