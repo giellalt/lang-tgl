@@ -4,6 +4,8 @@ Multichar_Symbols  +V +Inf +Fut +Prog +Pret +Imp
                    +Obj3 +Loc +Ben +Ins +Rea +Dir +Recip
                    +INF ! this for testing
 
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+
                    @P.ACT3.ON@  @P.ACT1.ON@
 
                    %> %^UM %^INF
