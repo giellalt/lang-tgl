@@ -1,0 +1,13 @@
+
+Multichar_Symbols  +V +Inf +Fut +Prog +Pret +Imp 
+                   +Act1 +Act2 +Act3 +Act4 +Obj1 +Obj2
+                   +Obj3 +Loc +Ben +Ins +Rea +Dir +Recip
+                   +INF ! this for testing
+
+                   @P.ACT3.ON@  @P.ACT1.ON@
+
+                   %> %^UM %^INF
+LEXICON Root
+
+Prefixes ; 
+VRoots ; ! empty entry

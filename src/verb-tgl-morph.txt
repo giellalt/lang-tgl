@@ -1,0 +1,24 @@
+
+LEXICON Prefixes
+
+@P.ACT1.ON@:%^UM%>@P.ACT1.ON@ VRoots;
+@P.ACT3.ON@:man%>@P.ACT3.ON@  VRoots ;
+RE+                         VRoots ;
+
+LEXICON VConjReg
+
+@P.ACT3.ON@+V+Inf+Act3: # ;
+@P.ACT1.ON@+V+Inf+Act1: # ;
++V+Inf:@P.ACT3.OFF@              #;  ! Infinitive
++V+Inf:@P.ACT1.OFF@              #;  ! Infinitive
++V+Inf+Obj1:%>in     #;  ! Infinitive, Object focus #1
++V+Inf+Obj3:%>an     #;  ! Infinitive, Object focus #2
++V+Inf+Loc:%>an      #;  ! Infinitive, Locative focus
+ 
++V+Imp+Obj1:@P.ACT3.OFF@         #;  ! Imperative, Object focus #1
++V+Imp+Obj1:@P.ACT1.OFF@         #;  ! Imperative, Object focus #1
++V+Imp+Obj1:%>a      #;  ! Imperative, Object focus #1
++V+Imp+Obj2:%>an     #;  ! Imperative, Object focus #2
++V+Imp+Obj3:%>i      #;  ! Imperative, Object focus #3
++V+INF:%^INF # ;
+
