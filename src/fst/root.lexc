@@ -1,17 +1,41 @@
+Multichar_Symbols
 
-Multichar_Symbols  +V +Inf +Fut +Prog +Pret +Imp 
-                   +Act1 +Act2 +Act3 +Act4 +Obj1 +Obj2
-                   +Obj3 +Loc +Ben +Ins +Rea +Dir +Recip
-                   +INF ! this for testing
+!! POS
++V      ! Verb
++N      ! Noun
++Adj    ! Adjective
++Adv    ! Adverb
++Pre    ! Preposition
++Pro    ! Pronoun
++Cnj    ! Conjunction
++Pcl    ! Particle
++Lig    ! Ligature
 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+!!! Verb
+! Aspect
++Cmp
++Ctm
++Prg
++Rcm
++Inf
 
-                   @P.ACT3.ON@  @P.ACT1.ON@
+! Trigger
++Act1 +Act2 +Act3 +Act4
++Obj1 +Obj2 +Obj3
++Loc
++Ben
++Ins
++Rsn
++Dir
++Rcp
 
-                   %> %^UM %^INF
-LEXICON Root
+! Mood
++Ind
++Dis
++Soc
++Pot
 
-Prefixes ; 
-VRoots ; ! empty entry
-Punctuation ;
-Symbols     ;
+!!! Case particle inflections
++Com +Per       ! Common or proper (personal) nouns
++Sg +Pl         ! Person
++Dir +Idr +Obl  ! Case

@@ -1,2 +1,17 @@
-LEXICON Noun 
-#;
+Multichar_Symbols
+
+! Lexicon containing noun stems
+LEXICON Noun
+ eroplano ;     ! airplane
+ pusa ;         ! cat
+ bansa ;        ! country
+ baka ;         ! cow
+ doktor ;       ! doctor
+ aso ;          ! dog
+ magsasaka ;    ! farmer
+ pagkain ;      ! food
+ kambing ;      ! goat
+ butiki ;       ! lizard
+ pera ;         ! money
+ kapatid ;      ! sibling
+ telepono ;     ! telephone
