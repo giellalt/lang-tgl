@@ -39,3 +39,6 @@ Multichar_Symbols
 +Com +Per       ! Common or proper (personal) nouns
 +Sg +Pl         ! Person
 +Dir +Idr +Obl  ! Case
+
+LEXICON Root
+Nouns ;
