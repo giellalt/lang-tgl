@@ -13,6 +13,12 @@ Multichar_Symbols
 
 !!! Verb
 ! Aspect
+@U.Asp.Comp@
+@U.Asp.Cont@
+@U.Asp.Prog@
+@U.Asp.Imp@
+@U.Asp.Rcmp@
+@U.Asp.Inf@
 +Cmp
 +Ctm
 +Prg
@@ -36,6 +42,6 @@ Multichar_Symbols
 +Pot
 
 !!! Case particle inflections
-+Com +Per       ! Common or proper (personal) nouns
++Comm +Prop       ! Common or proper nouns
 +Sg +Pl         ! Person
 +Dir +Idr +Obl  ! Case
