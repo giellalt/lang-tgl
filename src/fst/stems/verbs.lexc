@@ -1,0 +1,16 @@
+LEXICON V
+! MAG- verbs
+ aral           Vsuff "study" ;
+ basa           Vsuff  "read" ;
+ salita         Vsuff  "talk or speak" ;
+ sulat          Vsuff  "write" ;
+ saulo          Vsuff  "memorize" ;
+
+!! MA- verbs
+! kinig          VerbPrefix-Ma   "listen" ;
+! nood           VerbPrefix-Ma   "watch" ;
+! tulog          VerbPrefix-Ma   "sleep" ;
+! ligo           VerbPrefix-Ma   "bathe" ;
+! pasyol         VerbPrefix-Ma   "stroll" ;
+
+LEXICON Vsuff
