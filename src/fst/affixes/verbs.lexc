@@ -1,0 +1,9 @@
+!! Verb conjugations
+
+LEXICON VerbPrefix
+@U.Asp.Comp@:@U.Asp.Comp@nag V ;
+!@U.Asp.Cont@
+!@U.Asp.Prog@
+@U.Asp.Imp@:@U.Asp.Imp@mag V ;
+!@U.Asp.Rcmp@
+@U.Asp.Inf@ V ;
