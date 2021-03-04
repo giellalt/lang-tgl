@@ -1,6 +1,6 @@
 LEXICON Pronouns
 !!! Direct
- ako ;      ! 1st person singular
+ ako+1p+Sg+Dir:ako ;      ! 1st person singular
  kitá ;     ! 1st person dual
  tayo ;     ! 1st person inclusive
  kamí ;     ! 1st person exclusive
@@ -9,7 +9,7 @@ LEXICON Pronouns
  siyá ;     ! 3rd person singular
  silá ;     ! 3rd person plural
 
- !!! Indirect
+ !!! Indirect (Genitive)
  ko ;       ! 1st person singular
  nita ;     ! 1st person dual
  natin ;    ! 1st person inclusive
