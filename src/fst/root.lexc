@@ -19,11 +19,12 @@ Multichar_Symbols
 @U.Asp.Imp@
 @U.Asp.Rcmp@
 @U.Asp.Inf@
-+Cmp
-+Ctm
-+Prg
-+Rcm
++Comp
++Cont
++Prog
++Rcmp
 +Inf
++Imp
 
 ! Trigger
 +Act1 +Act2 +Act3 +Act4
@@ -46,5 +47,13 @@ Multichar_Symbols
 +Sg +Pl         ! Person
 +Dir +Idr +Obl  ! Case
 
+!!! Punctuation tags
++CLB
++Err/Orth
++LEFT
++PUNCT
++RIGHT
+
 LEXICON Root
 Nouns ;
+Verbs ;
