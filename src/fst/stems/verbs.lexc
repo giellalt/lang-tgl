@@ -1,10 +1,10 @@
-LEXICON V
+LEXICON Verbs
 ! MAG- verbs
- aral           Vsuff "study" ;
- basa           Vsuff  "read" ;
- salita         Vsuff  "talk or speak" ;
- sulat          Vsuff  "write" ;
- saulo          Vsuff  "memorize" ;
+ aral           V  "study" ;
+ basa           V  "read" ;
+ salita         V  "talk or speak" ;
+ sulat          V  "write" ;
+ saulo          V  "memorize" ;
 
 !! MA- verbs
 ! kinig          VerbPrefix-Ma   "listen" ;
@@ -13,4 +13,3 @@ LEXICON V
 ! ligo           VerbPrefix-Ma   "bathe" ;
 ! pasyol         VerbPrefix-Ma   "stroll" ;
 
-LEXICON Vsuff
