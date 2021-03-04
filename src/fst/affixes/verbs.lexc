@@ -1,12 +1,16 @@
-LEXICON VerbPrefix
-@U.Asp.Comp@:@U.Asp.Comp@nag Verbs ;
+LEXICON Verbs
+@U.Asp.Comp@:@U.Asp.Comp@nag verb_lexemes ;
 !@U.Asp.Cont@
 !@U.Asp.Prog@
-@U.Asp.Imp@:@U.Asp.Imp@mag Verbs ;
+@U.Asp.Imp@:@U.Asp.Imp@mag  verb_lexemes ;
 !@U.Asp.Rcmp@
-@U.Asp.Inf@ Verbs ;
+@U.Asp.Inf@ verb_lexemes ;
 
 LEXICON V
-@U.Asp.Comp@    # ;
-@U.Asp.Imp@     # ;
-@U.Asp.Inf@     # ;
+@U.Asp.Comp@+V+Comp:@U.Asp.Comp@    # ;
+@U.Asp.Imp@+V+Imp:@U.Asp.Imp@       # ;
+@U.Asp.Inf@+V+Inf:@U.Asp.Inf@       # ;
+
+!!€gt-desc: verbs
+!!€ magbasa:    basa+V+Imp
+!!€ nagsalita:  salita+V+Comp
