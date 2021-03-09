@@ -1,10 +1,19 @@
 LEXICON Verbs
-@U.Asp.Comp@:@U.Asp.Comp@nag verb_lexemes ;
+!!! MAG- Verbs
+@U.Asp.Comp@:@U.Asp.Comp@nag mag_verbs ;
 !@U.Asp.Cont@
 !@U.Asp.Prog@
-@U.Asp.Imp@:@U.Asp.Imp@mag  verb_lexemes ;
+@U.Asp.Imp@:@U.Asp.Imp@mag mag_verbs ;
 !@U.Asp.Rcmp@
-@U.Asp.Inf@ verb_lexemes ;
+@U.Asp.Inf@:@U.Asp.Inf@ mag_verbs ;
+
+!!! MA- Verbs
+@U.Asp.Comp@:@U.Asp.Comp@na ma_verbs ;
+!@U.Asp.Cont@
+!@U.Asp.Prog@
+@U.Asp.Imp@:@U.Asp.Imp@ma  ma_verbs ;
+!@U.Asp.Rcmp@
+@U.Asp.Inf@:@U.Asp.Inf@ ma_verbs ;
 
 LEXICON V
 @U.Asp.Comp@+V+Comp:@U.Asp.Comp@    # ;
@@ -14,3 +23,6 @@ LEXICON V
 !!€gt-desc: verbs
 !!€ magbasa:    basa+V+Imp
 !!€ nagsalita:  salita+V+Comp
+!!€ makinig:    kinig+V+Imp
+!!€ natulog:    tulog+V+Comp
+!!€ aral:       aral+V+Inf
