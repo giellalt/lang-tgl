@@ -1,19 +1,19 @@
 LEXICON Verbs
 !!! MAG- Verbs
-@U.Asp.Comp@:@U.Asp.Comp@nag mag_verbs ;
+@U.Asp.Comp@:@U.Asp.Comp@nag    mag_verbs ;
 !@U.Asp.Cont@
 !@U.Asp.Prog@
-@U.Asp.Imp@:@U.Asp.Imp@mag mag_verbs ;
+@U.Asp.Imp@:@U.Asp.Imp@mag      mag_verbs ;
 !@U.Asp.Rcmp@
-@U.Asp.Inf@:@U.Asp.Inf@ mag_verbs ;
+@U.Asp.Inf@:@U.Asp.Inf@         mag_verbs ;
 
 !!! MA- Verbs
-@U.Asp.Comp@:@U.Asp.Comp@na ma_verbs ;
+@U.Asp.Comp@:@U.Asp.Comp@na     ma_verbs ;
 !@U.Asp.Cont@
 !@U.Asp.Prog@
-@U.Asp.Imp@:@U.Asp.Imp@ma  ma_verbs ;
+@U.Asp.Imp@:@U.Asp.Imp@ma       ma_verbs ;
 !@U.Asp.Rcmp@
-@U.Asp.Inf@:@U.Asp.Inf@ ma_verbs ;
+@U.Asp.Inf@:@U.Asp.Inf@         ma_verbs ;
 
 LEXICON V
 @U.Asp.Comp@+V+Comp:@U.Asp.Comp@    # ;
