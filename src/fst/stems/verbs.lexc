@@ -1,4 +1,4 @@
-LEXICON verb_lexemes
+LEXICON mag_verbs
 ! MAG- verbs
  aral           V  "study" ;
  basa           V  "read" ;
@@ -6,10 +6,11 @@ LEXICON verb_lexemes
  sulat          V  "write" ;
  saulo          V  "memorize" ;
 
+LEXICON ma_verbs
 !! MA- verbs
-! kinig          VerbPrefix-Ma   "listen" ;
-! nood           VerbPrefix-Ma   "watch" ;
-! tulog          VerbPrefix-Ma   "sleep" ;
-! ligo           VerbPrefix-Ma   "bathe" ;
-! pasyol         VerbPrefix-Ma   "stroll" ;
+ kinig          V  "listen" ;
+ nood           V  "watch" ;
+ tulog          V  "sleep" ;
+ ligo           V  "bathe" ;
+ pasyol         V  "stroll" ;
 
