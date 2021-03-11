@@ -1,28 +1,41 @@
-LEXICON Verbs
+LEXICON verb_prefixes
 !!! MAG- Verbs
-@U.Asp.Comp@:@U.Asp.Comp@nag    mag_verbs ;
-!@U.Asp.Cont@
-!@U.Asp.Prog@
-@U.Asp.Imp@:@U.Asp.Imp@mag      mag_verbs ;
+@U.Asp.Comp@:@U.Asp.Comp@nag    mag_redup ;
+@U.Asp.Prog@:@U.Asp.Prog@nag    mag_redup ;
+@U.Asp.Cont@:@U.Asp.Cont@mag    mag_redup ;
+@U.Asp.Imp@:@U.Asp.Imp@mag      mag_redup ;
 !@U.Asp.Rcmp@
-@U.Asp.Inf@                     mag_verbs ;
+@U.Asp.Inf@                     mag_redup ;
 
 !!! MA- Verbs
-@U.Asp.Comp@:@U.Asp.Comp@na     ma_verbs ;
-!@U.Asp.Cont@
-!@U.Asp.Prog@
-@U.Asp.Imp@:@U.Asp.Imp@ma       ma_verbs ;
+@U.Asp.Comp@:@U.Asp.Comp@na     ma_redup ;
+@U.Asp.Prog@:@U.Asp.Prog@na     ma_redup ;
+@U.Asp.Cont@:@U.Asp.Cont@ma     ma_redup ;
+@U.Asp.Imp@:@U.Asp.Imp@ma       ma_redup ;
 !@U.Asp.Rcmp@
-@U.Asp.Inf@                     ma_verbs ;
+@U.Asp.Inf@                     ma_redup ;
+
+LEXICON mag_redup
+@U.Asp.Prog@:@U.Asp.Prog@RE+    mag_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@RE+    mag_verbs ;
+                                mag_verbs ; ! empty entry
+
+LEXICON ma_redup
+@U.Asp.Prog@:@U.Asp.Prog@RE+    ma_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@RE+    ma_verbs ;
+                                ma_verbs ; ! empty entry
 
 LEXICON V
 @U.Asp.Comp@+V+Comp:@U.Asp.Comp@    # ;
+@U.Asp.Prog@+V+Prog:@U.Asp.Prog@    # ;
+@U.Asp.Cont@+V+Cont:@U.Asp.Cont@    # ;
 @U.Asp.Imp@+V+Imp:@U.Asp.Imp@       # ;
 @U.Asp.Inf@+V+Inf:@U.Asp.Inf@       # ;
 
 !!€gt-desc: verbs
 !!€ magbasa:    basa+V+Imp
 !!€ nagsalita:  salita+V+Comp
+!!€ magbabasa:  basa+V+Cont
 !!€ makinig:    kinig+V+Imp
 !!€ natulog:    tulog+V+Comp
 !!€ aral:       aral+V+Inf
