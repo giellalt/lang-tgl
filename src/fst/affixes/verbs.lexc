@@ -16,8 +16,8 @@ LEXICON verb_prefixes
 @U.Asp.Inf@                     ma_redup ;
 
 LEXICON mag_redup
-@U.Asp.Prog@:@U.Asp.Prog@RE+    mag_verbs ;
-@U.Asp.Cont@:@U.Asp.Cont@RE+    mag_verbs ;
+@U.Asp.Prog@:@U.Asp.Prog@RE     mag_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@RE     mag_verbs ;
                                 mag_verbs ; ! empty entry
 
 LEXICON ma_redup
@@ -39,3 +39,5 @@ LEXICON V
 !!€ makinig:    kinig+V+Imp
 !!€ natulog:    tulog+V+Comp
 !!€ aral:       aral+V+Inf
+!!€ magaaral:   aral+V+Cont
+

@@ -1,30 +1,31 @@
 LEXICON Pronouns
 !!! Direct
- ako+1p+Sg+Dir:ako ;      ! 1st person singular
- kitá ;     ! 1st person dual
- tayo ;     ! 1st person inclusive
- kamí ;     ! 1st person exclusive
- ikáw ;     ! 2nd person singular
- kayó ;     ! 2nd person plural
- siyá ;     ! 3rd person singular
- silá ;     ! 3rd person plural
+ ako+1p+Sg+Dir:ako # ;      ! 1st person singular
+ kitá # ;     ! 1st person dual
+ tayo # ;     ! 1st person inclusive
+ kamí # ;     ! 1st person exclusive
+ ikáw # ;     ! 2nd person singular
+ kayó # ;     ! 2nd person plural
+ siyá # ;     ! 3rd person singular
+ silá # ;     ! 3rd person plural
 
  !!! Indirect (Genitive)
- ko ;       ! 1st person singular
- nita ;     ! 1st person dual
- natin ;    ! 1st person inclusive
- namin ;    ! 1st person exclusive
- mo ;       ! 2nd person singular
- ninyó ;    ! 2nd person plural
- niyá ;     ! 3rd person singular
- nilá ;     ! 3rd person plural
+ ko # ;       ! 1st person singular
+ nita # ;     ! 1st person dual
+ natin # ;    ! 1st person inclusive
+ namin # ;    ! 1st person exclusive
+ mo # ;       ! 2nd person singular
+ ninyó # ;    ! 2nd person plural
+ niyá # ;     ! 3rd person singular
+ nilá # ;     ! 3rd person plural
 
  !!! Oblique
- akin ;     ! 1st person singular
- kanitá ;   ! 1st person dual
- atin ;     ! 1st person inclusive
- amin ;     ! 1st person exclusive
- iyó ;      ! 2nd person singular
- inyó ;     ! 2nd person plural
- kaniyá ;   ! 3rd person singular
- kanilá ;   ! 3rd person plural
+ akin # ;     ! 1st person singular
+ kanitá # ;   ! 1st person dual
+ atin # ;     ! 1st person inclusive
+ amin # ;     ! 1st person exclusive
+ iyó # ;      ! 2nd person singular
+ inyó # ;     ! 2nd person plural
+ kaniyá # ;   ! 3rd person singular
+ kanilá # ;   ! 3rd person plural
+

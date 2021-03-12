@@ -57,4 +57,7 @@ Multichar_Symbols
 
 LEXICON Root
 Nouns ;
-Verbs ;
+verb_prefixes ;
+Interrogatives ;
+Pronouns ;
+
