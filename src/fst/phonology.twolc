@@ -19,8 +19,6 @@ R:CC <=> _ E: %+: CC ; where CC in Conson ;
 "E realization as Vowel"
 E:VV <=> _ %+: (Conson:) VV ; where VV in Vowel ;
 
-"Dummy rule: DELETE ME"
-a:b <=> _ j j j j j j j j j j j j j j ;
 
 
 
