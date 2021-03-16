@@ -1,16 +1,16 @@
 ! Lexicon containing noun stems
 LEXICON Nouns
- eroplano  # ;     ! airplane
- pusa  # ;         ! cat
- bansa  # ;        ! country
- baka  # ;         ! cow
- doktor  # ;       ! doctor
- aso  # ;          ! dog
- magsasaka  # ;    ! farmer
- pagkain  # ;      ! food
- kambing  # ;      ! goat
- butiki  # ;       ! lizard
- pera  # ;         ! money
- kapatid  # ;      ! sibling
- telepono  # ;     ! telephone
+ eroplano  Ligatures ;     ! airplane
+ pusa  Ligatures ;         ! cat
+ bansa  Ligatures ;        ! country
+ baka  Ligatures ;         ! cow
+ doktor  Ligatures ;       ! doctor
+ aso  Ligatures ;          ! dog
+ magsasaka  Ligatures ;    ! farmer
+ pagkain  Ligatures ;      ! food
+ kambing  Ligatures ;      ! goat
+ butiki  Ligatures ;       ! lizard
+ pera  Ligatures ;         ! money
+ kapatid  Ligatures ;      ! sibling
+ telepono  Ligatures ;     ! telephone
 
