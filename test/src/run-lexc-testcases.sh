@@ -70,7 +70,7 @@ for file in ${source_files}; do
 			# Empty line before each new fst:
 			echo
 		    leadtext=$(echo "LEXC test $i: ")
-		    
+
 		    # Check for possible one-sided tests (default is two-sided/full):
 		    if [[ "$fst" == *.gen ]]; then
 		      testtype="gen"
@@ -79,7 +79,7 @@ for file in ${source_files}; do
 		      testtype="ana"
 		      fst=$(basename $fst .ana)
 		    fi
-		    
+
 		    # Run the actual tests for the given fst:
 			source $relpath/run-morph-tester.sh \
 				$fst $file $relpath $testtype all $leadtext
