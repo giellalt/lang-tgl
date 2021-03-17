@@ -37,7 +37,8 @@ endif # WANT_GENERATION
 # electronic dictionaries:
 if WANT_DICTIONARIES
 TESTS+=run-dict-gt-desc-anayaml-testcases.sh \
-       run-dict-gt-norm-genyaml-testcases.sh
+       run-dict-gt-norm-genyaml-testcases.sh \
+       run-lexc-testcases.sh
 endif # WANT_DICTIONARIES
 
 endif # CAN_YAML_TEST
