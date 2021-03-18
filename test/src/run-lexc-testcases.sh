@@ -15,6 +15,8 @@ concat_lexc_file="lexicon.lexc"
 relpath=.
 testrunner=run-morph-tester.sh
 
+set -x # NOTE: Temp to debug LEXC tests
+
 while test ! -x $relpath/$testrunner ; do
     relpath="$relpath/.."
 #    echo relpath: $relpath     # debug
