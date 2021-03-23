@@ -3,9 +3,12 @@ Alphabet
   A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z %+
   a b c d e f g h i j k l m n ñ o p q r s t u v w x y z %+
 
+%{N%}
+
 ;
 
 Sets
+
   Conson = b c d f g h j k l m n ñ p q r s t  v w x y z ;
   Vowel = a e i o u ;
 
@@ -19,6 +22,12 @@ R:CC <=> _ E: %+: CC ; where CC in Conson ;
 "E realization as Vowel"
 E:VV <=> _ %+: (Conson:) VV ; where VV in Vowel ;
 
+"Ligature realization: {N} into n"
+%{N%}:n <=> Vowel: _ g ;
+
+"Ligature realization: {N} into 0"
+%{N%}:0 <=> n: _ g ;
 
 
+;
 
