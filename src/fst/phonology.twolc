@@ -23,11 +23,10 @@ R:CC <=> _ E: %+: CC ; where CC in Conson ;
 E:VV <=> _ %+: (Conson:) VV ; where VV in Vowel ;
 
 "Ligature realization: {N} into n"
-%{N%}:n <=> Vowel: _ g ;
+%{N%}:n <= Vowel _ g ;
 
 "Ligature realization: {N} into 0"
-%{N%}:0 <=> n: _ g ;
-
+%{N%}:0 <= n _ g ;
 
 ;
 
