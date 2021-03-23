@@ -5,6 +5,15 @@ LEXICON mag_verbs
  salita         V  "talk or speak" ;
  sulat          V  "write" ;
  saulo          V  "memorize" ;
+ lakad          V  "walk" ;
+ bigay          V  "give" ;
+ isip           V  "think" ;
+ linis          V  "clean" ;
+ tanong         V  "ask" ;
+ simula         V  "start" ;
+ dala           V  "give" ;
+ sepilyo        V  "brush" ;
+ sara           V  "close" ;
 
 LEXICON ma_verbs
 !! MA- verbs
@@ -13,4 +22,25 @@ LEXICON ma_verbs
  tulog          V  "sleep" ;
  ligo           V  "bathe" ;
  pasyol         V  "stroll" ;
+ higa           V  "lie down" ;
+ upo            V  "sit" ;
+ tuto           V  "learn" ;
+ talo           V  "lose (a game or competition)" ;
+ nalo           V  "win (a game or competition)" ;
+ basag          V  "break" ;
 
+LEXICON um_verbs
+!! UM verbs
+ kain           V  "eat" ;
+ kanta          V  "sing" ;
+ tawa           V  "laugh" ;
+ higa           V  "lie down" ;
+ sigaw          V  "shout" ;
+
+!LEXICON in_verbs
+!! UM verbs
+! kain           V  "eat" ;
+! kanta          V  "sing" ;
+! tawa           V  "laugh" ;
+! higa           V  "lie down" ;
+! sigaw          V  "shout" ;
