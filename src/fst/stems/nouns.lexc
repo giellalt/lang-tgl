@@ -1,16 +1,63 @@
 ! Lexicon containing noun stems
 LEXICON Nouns
- eroplano  Ligatures ;     ! airplane
- pusa  Ligatures ;         ! cat
- bansa  Ligatures ;        ! country
- baka  Ligatures ;         ! cow
- doktor  Ligatures ;       ! doctor
- aso  Ligatures ;          ! dog
- magsasaka  Ligatures ;    ! farmer
- pagkain  Ligatures ;      ! food
- kambing  Ligatures ;      ! goat
- butiki  Ligatures ;       ! lizard
- pera  Ligatures ;         ! money
- kapatid  Ligatures ;      ! sibling
- telepono  Ligatures ;     ! telephone
+ eroplano       Ligatures ; ! airplane
+ pusa           Ligatures ; ! cat
+ bansa          Ligatures ; ! country
+ baka           Ligatures ; ! cow
+ doktor         Ligatures ; ! doctor
+ aso            Ligatures ; ! dog
+ magsasaka      Ligatures ; ! farmer
+ pagkain        Ligatures ; ! food
+ kambing        Ligatures ; ! goat
+ butiki         Ligatures ; ! lizard
+ pera           Ligatures ; ! money
+ kapatid        Ligatures ; ! sibling
+ telepono       Ligatures ; ! telephone
+ linggo         Ligatures ; ! week
+ taon           Ligatures ; ! year
+ pangalawa      Ligatures ; ! second
+ oras           Ligatures ; ! hour
+ minuto         Ligatures ; ! minute
+ tubig          Ligatures ; ! water
+ kape           Ligatures ; ! coffee
+ serbesa        Ligatures ; ! beer
+ yelo           Ligatures ; ! ice
+ tsaa           Ligatures ; ! tea
+ ina            Ligatures ; ! mother
+ ama            Ligatures ; ! father
+ asawang% lalaki Ligatures ; ! husband
+ asawang% babae  Ligatures ; ! wife
+ anak% na% lalaki Ligatures ; ! son
+ anak% na% babae  Ligatures ; ! daughter
+ isda           Ligatures ; ! fish
+ baka           Ligatures ; ! beef
+ manok          Ligatures ; ! chicken
+ kusina         Ligatures ; ! kitchen
+ banyo          Ligatures ; ! bathroom
+ kompyuter      Ligatures ; ! computer
+ kama           Ligatures ; ! bed
+ supa           Ligatures ; ! couch/sofa
+ nars           Ligatures ; ! nurse
+ hotel          Ligatures ; ! hotel
+ babae          Ligatures ; ! woman
+ lalaki         Ligatures ; ! man
+ nobya          Ligatures ; ! girlfriend
+ nobyo          Ligatures ; ! boyfriend
+ bata           Ligatures ; ! child
+ guro           Ligatures ; ! teacher
+ ngayong% araw  Ligatures ; ! today
+ ulo            Ligatures ; ! head
+ ulan           Ligatures ; ! rain
+ niyebe         Ligatures ; ! snow
+ ulap           Ligatures ; ! cloud
+ sapatos        Ligatures ; ! shoe
+ kamiseta       Ligatures ; ! shirt
+ medyas         Ligatures ; ! sock
+ pantalon       Ligatures ; ! pants
+ kaibigan       Ligatures ; ! friend
+ matanda        Ligatures ; ! adult
+ telebisyon     Ligatures ; ! television
+ batang% babae  Ligatures ; ! girl
+ batang% lalaki Ligatures ; ! boy
+ pangalan       Ligatures ; ! name
 
