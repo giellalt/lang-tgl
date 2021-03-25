@@ -1,7 +1,7 @@
 Alphabet
 
-  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z %+
-  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z %+
+  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z %+:0
+  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z %+:0
 
 %{N%}
 
@@ -19,14 +19,17 @@ Rules
 "R realization as Consonant"
 R:CC <=> _ E: %+: CC ; where CC in Conson ;
 
+"R realization as Consonant"
+R:0 <=> _ E: %+: VV ; where VV in Vowel ;
+
 "E realization as Vowel"
 E:VV <=> _ %+: (Conson:) VV ; where VV in Vowel ;
 
 "Ligature realization: {N} into n"
-%{N%}:n <= Vowel _ g ;
+%{N%}:n <=> (Vowel:) _ g ;
 
 "Ligature realization: {N} into 0"
-%{N%}:0 <= n _ g ;
+%{N%}:0 <=> n: _ g ;
 
 ;
 
