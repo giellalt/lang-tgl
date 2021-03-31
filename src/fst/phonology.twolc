@@ -19,16 +19,16 @@ Rules
 "R realization as Consonant"
 R:CC <=> _ E: %+: CC ; where CC in Conson ;
 
-"R realization as Consonant"
+"R deletion"
 R:0 <=> _ E: %+: VV ; where VV in Vowel ;
 
 "E realization as Vowel"
 E:VV <=> _ %+: (Conson:) VV ; where VV in Vowel ;
 
-"Ligature realization: {N} into n"
-%{N%}:n <=> (Vowel:) _ g ;
+"Ligature realization: {N} as n"
+%{N%}:n <=> VV: _ g ; where VV in Vowel ;
 
-"Ligature realization: {N} into 0"
+"Ligature realization: {N} deletion"
 %{N%}:0 <=> n: _ g ;
 
 ;
