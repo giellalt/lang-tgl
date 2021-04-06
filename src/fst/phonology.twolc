@@ -3,25 +3,37 @@ Alphabet
   A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z %+:0
   a b c d e f g h i j k l m n ñ o p q r s t u v w x y z %+:0
 
+ %{R%}
+
+ %{E%}
+
+ %{um%}:0 ! For to trigger the -um- infix
+
 ;
 
 Sets
 
-  Conson = b c d f g h j k l m n ñ p q r s t  v w x y z ;
-  Vowel = a e i o u ;
+  C = b c d f g h j k l m n ñ p q r s t  v w x y z ;
+  V = a e i o u ;
 
 ;
 
 Rules
 
 "R realization as Consonant"
-R:CC <=> _ E: %+: CC ; where CC in Conson ;
+%{R%}:CC <=> _ ( 0:u 0:m ) %{E%}: CC ; where CC in C ;
 
 "R deletion"
-R:0 <=> _ E: %+: VV ; where VV in Vowel ;
+%{R%}:0 <=> _ ( 0:u 0:m ) %{E%}: VV ; where VV in V ;
 
 "E realization as Vowel"
-E:VV <=> _ %+: (Conson:) VV ; where VV in Vowel ;
+%{E%}:VV <=> ( 0:u 0:m ) _ (C:) VV ; where VV in V ;
+
+"U insertion in -um- infix"
+0:u <=> .#. ?: _ 0:m \0:* %{um%}:0 ;
+
+"M insertion in -um- infix"
+0:m <=> .#. ?: 0:u _ \0:* %{um%}:0 ;
 
 ;
 

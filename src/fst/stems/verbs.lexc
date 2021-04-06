@@ -31,9 +31,9 @@ LEXICON ma_verbs
 
 LEXICON um_verbs
 !! UM verbs
- kain           V  "eat" ;
- kanta          V  "sing" ;
- tawa           V  "laugh" ;
- higa           V  "lie down" ;
- sigaw          V  "shout" ;
+ kain           um_infix  "eat" ;
+ kanta          um_infix  "sing" ;
+ tawa           um_infix  "laugh" ;
+ higa           um_infix  "lie down" ;
+ sigaw          um_infix  "shout" ;
 

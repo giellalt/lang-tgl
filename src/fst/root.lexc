@@ -26,6 +26,9 @@ Multichar_Symbols
 +Inf
 +Imp
 +1p ! TODO figure out where to go
+%{um%} ! -um- infix trigger
+%{R%}
+%{E%}
 
 ! Noun Ligatures
 @U.Lig.V@
@@ -50,7 +53,7 @@ Multichar_Symbols
 +Pot
 
 !!! Case particle inflections
-+Comm +Prop       ! Common or proper nouns
++Comm +Prop     ! Common or proper nouns
 +Sg +Pl         ! Person
 +Dir +Idr +Obl  ! Case
 
