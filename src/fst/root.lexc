@@ -27,6 +27,12 @@ Multichar_Symbols
 +Imp
 +1p ! TODO figure out where to go
 
+! Noun Ligatures
+@U.Lig.V@
+@U.Lig.N@
+@U.Lig.C@
++Lig
+
 ! Trigger
 +Act1 +Act2 +Act3 +Act4
 +Obj1 +Obj2 +Obj3

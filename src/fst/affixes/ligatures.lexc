@@ -1,5 +1,14 @@
 LEXICON Ligatures
- %{N%}g  # ;
- % na    # ;
-         # ; ! empty entry
+ @U.Lig.V@+Lig:@U.Lig.V@ng   # ;
+ @U.Lig.N@+Lig;@U.Lig.N@g    # ;
+ @U.Lig.C@+Lig:@U.Lig.C@% na # ;
+                             # ; ! empty entry
 
+
+!!€gt-desc: ligatures
+!!€ banyo:      banyo
+!!€ banyong:    banyo+Lig
+!!€ pagkain:    pagkain
+!!€ pagkaing:   pagkain+Lig
+!!€ doktor:     doktor
+!!€ doktor na:  doktor+Lig

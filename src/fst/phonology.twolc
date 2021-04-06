@@ -3,8 +3,6 @@ Alphabet
   A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z %+:0
   a b c d e f g h i j k l m n ñ o p q r s t u v w x y z %+:0
 
-%{N%}
-
 ;
 
 Sets
@@ -24,12 +22,6 @@ R:0 <=> _ E: %+: VV ; where VV in Vowel ;
 
 "E realization as Vowel"
 E:VV <=> _ %+: (Conson:) VV ; where VV in Vowel ;
-
-"Ligature realization: {N} as n"
-%{N%}:n <=> VV: _ g ; where VV in Vowel ;
-
-"Ligature realization: {N} deletion"
-%{N%}:0 <=> n: _ g ;
 
 ;
 
