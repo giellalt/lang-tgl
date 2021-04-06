@@ -37,10 +37,3 @@ LEXICON um_verbs
  higa           V  "lie down" ;
  sigaw          V  "shout" ;
 
-!LEXICON in_verbs
-!! UM verbs
-! kain           V  "eat" ;
-! kanta          V  "sing" ;
-! tawa           V  "laugh" ;
-! higa           V  "lie down" ;
-! sigaw          V  "shout" ;
