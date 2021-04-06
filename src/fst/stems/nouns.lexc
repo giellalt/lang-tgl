@@ -1,63 +1,76 @@
 ! Lexicon containing noun stems
 LEXICON Nouns
- eroplano       Ligatures ; ! airplane
- pusa           Ligatures ; ! cat
- bansa          Ligatures ; ! country
- baka           Ligatures ; ! cow
- doktor         Ligatures ; ! doctor
- aso            Ligatures ; ! dog
- magsasaka      Ligatures ; ! farmer
- pagkain        Ligatures ; ! food
- kambing        Ligatures ; ! goat
- butiki         Ligatures ; ! lizard
- pera           Ligatures ; ! money
- kapatid        Ligatures ; ! sibling
- telepono       Ligatures ; ! telephone
- linggo         Ligatures ; ! week
- taon           Ligatures ; ! year
- pangalawa      Ligatures ; ! second
- oras           Ligatures ; ! hour
- minuto         Ligatures ; ! minute
- tubig          Ligatures ; ! water
- kape           Ligatures ; ! coffee
- serbesa        Ligatures ; ! beer
- yelo           Ligatures ; ! ice
- tsaa           Ligatures ; ! tea
- ina            Ligatures ; ! mother
- ama            Ligatures ; ! father
- asawang% lalaki Ligatures ; ! husband
- asawang% babae  Ligatures ; ! wife
- anak% na% lalaki Ligatures ; ! son
- anak% na% babae  Ligatures ; ! daughter
- isda           Ligatures ; ! fish
- baka           Ligatures ; ! beef
- manok          Ligatures ; ! chicken
- kusina         Ligatures ; ! kitchen
- banyo          Ligatures ; ! bathroom
- kompyuter      Ligatures ; ! computer
- kama           Ligatures ; ! bed
- supa           Ligatures ; ! couch/sofa
- nars           Ligatures ; ! nurse
- hotel          Ligatures ; ! hotel
- babae          Ligatures ; ! woman
- lalaki         Ligatures ; ! man
- nobya          Ligatures ; ! girlfriend
- nobyo          Ligatures ; ! boyfriend
- bata           Ligatures ; ! child
- guro           Ligatures ; ! teacher
- ngayong% araw  Ligatures ; ! today
- ulo            Ligatures ; ! head
- ulan           Ligatures ; ! rain
- niyebe         Ligatures ; ! snow
- ulap           Ligatures ; ! cloud
- sapatos        Ligatures ; ! shoe
- kamiseta       Ligatures ; ! shirt
- medyas         Ligatures ; ! sock
- pantalon       Ligatures ; ! pants
- kaibigan       Ligatures ; ! friend
- matanda        Ligatures ; ! adult
- telebisyon     Ligatures ; ! television
- batang% babae  Ligatures ; ! girl
- batang% lalaki Ligatures ; ! boy
- pangalan       Ligatures ; ! name
+! Nouns ending in vowel
+ eroplano       Noun_V; ! airplane
+ pusa           Noun_V; ! cat
+ bansa          Noun_V; ! country
+ baka           Noun_V; ! cow
+ aso            Noun_V; ! dog
+ magsasaka      Noun_V; ! farmer
+ butiki         Noun_V; ! lizard
+ pera           Noun_V; ! money
+ telepono       Noun_V; ! telephone
+ linggo         Noun_V; ! week
+ pangalawa      Noun_V; ! second
+ minuto         Noun_V; ! minute
+ kape           Noun_V; ! coffee
+ serbesa        Noun_V; ! beer
+ yelo           Noun_V; ! ice
+ tsaa           Noun_V; ! tea
+ ina            Noun_V; ! mother
+ ama            Noun_V; ! father
+ asawang% lalaki Noun_V; ! husband
+ asawang% babae  Noun_V; ! wife
+ anak% na% lalaki Noun_V; ! son
+ anak% na% babae  Noun_V; ! daughter
+ isda           Noun_V; ! fish
+ kusina         Noun_V; ! kitchen
+ banyo          Noun_V; ! bathroom
+ kompyuter      Noun_V; ! computer
+ kama           Noun_V; ! bed
+ supa           Noun_V; ! couch/sofa
+ babae          Noun_V; ! woman
+ lalaki         Noun_V; ! man
+ nobya          Noun_V; ! girlfriend
+ nobyo          Noun_V; ! boyfriend
+ bata           Noun_V; ! child
+ guro           Noun_V; ! teacher
+ ulo            Noun_V; ! head
+ niyebe         Noun_V; ! snow
+ kamiseta       Noun_V; ! shirt
+ matanda        Noun_V; ! adult
+ batang% babae  Noun_V; ! girl
+ batang% lalaki Noun_V; ! boy
+
+! Nouns ending in 'n'
+ pagkain        Noun_N; ! food
+ taon           Noun_N; ! year
+ pangalan       Noun_N; ! name
+ telebisyon     Noun_N; ! television
+ pantalon       Noun_N; ! pants
+ kaibigan       Noun_N; ! friend
+ ulan           Noun_N; ! rain
+
+! Nouns ending in consonant other than 'n'
+ doktor         Noun_C; ! doctor
+ kambing        Noun_C; ! goat
+ kapatid        Noun_C; ! sibling
+ oras           Noun_C; ! hour
+ ulap           Noun_C; ! cloud
+ sapatos        Noun_C; ! shoe
+ ngayong% araw  Noun_C; ! today
+ nars           Noun_C; ! nurse
+ hotel          Noun_C; ! hotel
+ manok          Noun_C; ! chicken
+ tubig          Noun_C; ! water
+ medyas         Noun_C; ! sock
+
+LEXICON Noun_V
+ @U.Lig.V@  Ligatures ;
+
+ LEXICON Noun_N
+ @U.Lig.N@  Ligatures ;
+
+ LEXICON Noun_C
+ @U.Lig.C@  Ligatures ;
 
