@@ -27,6 +27,7 @@ Multichar_Symbols
 +Imp
 +1p ! TODO figure out where to go
 %{um%} ! -um- infix trigger
+%{in%} ! -in- infix trigger
 %{R%}
 %{E%}
 

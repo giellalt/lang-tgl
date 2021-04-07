@@ -20,6 +20,13 @@ LEXICON verb_prefixes
 @U.Asp.Imp@                             um_verbs ;
 @U.Asp.Inf@                             um_verbs ;
 
+!!! -IN- Verbs
+@U.Asp.Comp@                            in_verbs ;
+@U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     in_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     in_verbs ;
+@U.Asp.Imp@                             in_verbs ;
+@U.Asp.Inf@                             in_verbs ;
+
 LEXICON mag_redup
 @U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     mag_verbs ;
 @U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     mag_verbs ;
@@ -28,15 +35,18 @@ LEXICON ma_redup
 @U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     ma_verbs ;
 @U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     ma_verbs ;
 
-!LEXICON um_redup
-!@U.Asp.Prog@:@U.Asp.Prog@RE+    um_verbs ;
-!@U.Asp.Cont@:@U.Asp.Cont@RE+    um_verbs ;
-
 LEXICON um_infix
 @U.Asp.Comp@:@U.Asp.Comp@%{um%} V ;
 @U.Asp.Prog@:@U.Asp.Prog@%{um%} V ;
 @U.Asp.Cont@:@U.Asp.Cont@       V ;
 @U.Asp.Imp@:@U.Asp.Imp@%{um%}   V ;
+@U.Asp.Inf@:@U.Asp.Inf@         V ;
+
+LEXICON in_infix
+@U.Asp.Comp@:@U.Asp.Comp@%{in%} V ;
+@U.Asp.Prog@:@U.Asp.Prog@%{in%} V ;
+@U.Asp.Cont@:@U.Asp.Cont@in     V ;
+@U.Asp.Imp@:@U.Asp.Imp@in       V ;
 @U.Asp.Inf@:@U.Asp.Inf@         V ;
 
 LEXICON V
@@ -59,3 +69,9 @@ LEXICON V
 !!€ sumigaw:    sigaw+V+Comp
 !!€ sumisigaw:  sigaw+V+Prog
 !!€ sisigaw:    sigaw+V+Cont
+!!€ tawag:      tawag+V+Inf
+!!€ tawagin:    tawag+V+Imp
+!!€ tinawag:    tawag+V+Comp
+!!€ tinatawag:  tawag+V+Prog
+!!€ tatawagin:  tawag+V+Cont
+

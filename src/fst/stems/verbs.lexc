@@ -30,10 +30,18 @@ LEXICON ma_verbs
  basag          V  "break" ;
 
 LEXICON um_verbs
-!! UM verbs
+!! -UM- verbs
  kain           um_infix  "eat" ;
  kanta          um_infix  "sing" ;
  tawa           um_infix  "laugh" ;
  higa           um_infix  "lie down" ;
  sigaw          um_infix  "shout" ;
+
+LEXICON in_verbs
+!! -IN- verbs
+ kain           in_infix  "eat" ;
+ basag          in_infix  "break" ;
+ sabi           in_infix  "say" ;
+ pilit          in_infix  "insist or force" ;
+ tawag          in_infix  "call" ;
 
