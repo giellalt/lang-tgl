@@ -36,11 +36,11 @@ LEXICON um_verbs
  tawa           um_infix  "laugh" ;
  higa           um_infix  "lie down" ;
  sigaw          um_infix  "shout" ;
- takbo          um_infix  "run"
- lakad          um_infix  "walk"
- pasok          um_infix  "enter"
- punta          um_infix  "go"
- dumating       um_infix  "arrive"
+ takbo          um_infix  "run" ;
+ lakad          um_infix  "walk" ;
+ pasok          um_infix  "enter" ;
+ punta          um_infix  "go" ;
+ dumating       um_infix  "arrive" ;
 
 LEXICON in_verbs
 !! -IN- verbs
