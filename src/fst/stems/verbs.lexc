@@ -36,6 +36,11 @@ LEXICON um_verbs
  tawa           um_infix  "laugh" ;
  higa           um_infix  "lie down" ;
  sigaw          um_infix  "shout" ;
+ takbo          um_infix  "run"
+ lakad          um_infix  "walk"
+ pasok          um_infix  "enter"
+ punta          um_infix  "go"
+ dumating       um_infix  "arrive"
 
 LEXICON in_verbs
 !! -IN- verbs
@@ -43,5 +48,10 @@ LEXICON in_verbs
  basag          in_infix  "break" ;
  sabi           in_infix  "say" ;
  pilit          in_infix  "insist or force" ;
- tawag          in_infix  "call" ;
+ tawag          in_infix  "call by name" ;
+ banggit        in_infix  "mention" ;
+ pitas          in_infix  "pick or harvest" ;
+ sira           in_infix  "destroy" ;
+ bura           in_infix  "erase" ;
+ sipa           in_infix  "kick" ;
 
