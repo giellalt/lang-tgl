@@ -9,6 +9,8 @@ Alphabet
 
  %{um%}:0 ! For to trigger the -um- infix
 
+ %{in%}:0 ! For to trigger the -in- infix
+
 ;
 
 Sets
@@ -21,19 +23,25 @@ Sets
 Rules
 
 "R realization as Consonant"
-%{R%}:CC <=> _ ( 0:u 0:m ) %{E%}: CC ; where CC in C ;
+%{R%}:CC <=> _ ( 0:? 0:? ) %{E%}: CC ; where CC in C ;
 
 "R deletion"
-%{R%}:0 <=> _ ( 0:u 0:m ) %{E%}: VV ; where VV in V ;
+%{R%}:0 <=> _ ( 0:? 0:? ) %{E%}: VV ; where VV in V ;
 
 "E realization as Vowel"
 %{E%}:VV <=> ( 0:u 0:m ) _ (C:) VV ; where VV in V ;
 
 "U insertion in -um- infix"
-0:u <=> .#. ?: _ 0:m \0:* %{um%}:0 ;
+0:u <=> .#. ?: _ (0:m) \0:* %{um%}:0 ;
 
 "M insertion in -um- infix"
 0:m <=> .#. ?: 0:u _ \0:* %{um%}:0 ;
+
+"I insertion in -in- infix"
+0:i <=> .#. ?: _ (0:n) \0:* %{in%}:0 ;
+
+"N insertion in -in- infix"
+0:n <=> .#. ?: 0:i _ \0:* %{in%}:0 ;
 
 ;
 
