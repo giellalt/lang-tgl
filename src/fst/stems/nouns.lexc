@@ -66,11 +66,11 @@ LEXICON Nouns
  medyas         Noun_C; ! sock
 
 LEXICON Noun_V
- @U.Lig.V@  Ligatures ;
+ @U.Lig.V@+N:@U.Lig.V@  Ligatures ;
 
  LEXICON Noun_N
- @U.Lig.N@  Ligatures ;
+ @U.Lig.N@+N:@U.Lig.N@  Ligatures ;
 
  LEXICON Noun_C
- @U.Lig.C@  Ligatures ;
+ @U.Lig.C@+N:@U.Lig.C@  Ligatures ;
 

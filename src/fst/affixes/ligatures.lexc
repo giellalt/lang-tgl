@@ -6,9 +6,9 @@ LEXICON Ligatures
 
 
 !!€gt-desc: ligatures
-!!€ banyo:      banyo
-!!€ banyong:    banyo+Lig
-!!€ pagkain:    pagkain
-!!€ pagkaing:   pagkain+Lig
-!!€ doktor:     doktor
-!!€ doktor na:  doktor+Lig
+!!€ banyo:      banyo+N
+!!€ banyong:    banyo+N+Lig
+!!€ pagkain:    pagkain+N
+!!€ pagkaing:   pagkain+N+Lig
+!!€ doktor:     doktor+N
+!!€ doktor na:  doktor+N+Lig
