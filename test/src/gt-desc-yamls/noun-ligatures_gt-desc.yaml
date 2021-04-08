@@ -1,0 +1,22 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+  Noun - eroplano - ligatures :
+    eroplano+N: eroplano # No ligature
+    eroplano+N+Lig: eroplanong # with -ng ligature
+
+  Noun - pagkain - ligatures :
+    pagkain+N: pagkain # No ligature
+    pagkain+N+Lig: pagkaing # with -g ligature
+
+  Noun - kapatid - ligatures :
+    kapatid+N: kapatid # No ligature
+    kapatid+N+Lig: kapatid na # with na ligature
