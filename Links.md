@@ -1,2 +1,7 @@
+* [verbs-affixes.md](verbs-affixes.md)
 * [root-morphology.md](root-morphology.md)
+* [particles-stems.md](particles-stems.md)
+* [pronouns-stems.md](pronouns-stems.md)
+* [verbs-stems.md](verbs-stems.md)
+* [transcriptor-numbers-digit2text.md](transcriptor-numbers-digit2text.md)
 * [transcriptor-abbrevs2text.md](transcriptor-abbrevs2text.md)
