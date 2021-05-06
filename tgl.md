@@ -1,4 +1,16 @@
 
+MA- verbs
+
+-UM- verbs
+
+-IN- verbs
+
+
+
+
+
+
+
 
 
 
@@ -40,14 +52,18 @@ POS
 
 
 
+We describe here how abbreviations are in Tagalog are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
-MA- verbs
-
--UM- verbs
-
--IN- verbs
 
 
 
@@ -102,20 +118,4 @@ MA- verbs
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Tagalog are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
