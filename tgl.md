@@ -199,7 +199,7 @@
 * Sets for verbs
 
 
-    - V is all readings with a V tag in them, REAL-V should
+- V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
@@ -605,7 +605,19 @@ These were the set types.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-tgl/blob/main/../src/cg3/functions.cg3)</small>
+POS
 
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/root.lexc)</small>
 
 
 
@@ -634,29 +646,23 @@ These were the set types.
 * *tinatawag:* `tawag+V+Prog`
 * *tatawagin:* `tawag+V+Cont`
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/affixes/verbs.lexc)</small>
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/particles.lexc)</small>
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/pronouns.lexc)</small>
 MA- verbs
 
 -UM- verbs
 
 -IN- verbs
 
-
-
-
-
-
-
-POS
-
-
-
-
-
-
-
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/verbs.lexc)</small>
 
 
 
@@ -710,7 +716,8 @@ POS
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 
 We describe here how abbreviations are in Tagalog are read out, e.g.
@@ -726,8 +733,9 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
-
-      [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+[ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
 
@@ -1137,3 +1145,5 @@ expression **WORD - premodifiers**.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-tgl/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
