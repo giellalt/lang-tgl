@@ -3,7 +3,7 @@ The Tagalog morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-tgl)](https://github.com/giellalt/lang-tgl/issues)
 [![Build Status](https://github.com/giellalt/lang-tgl/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-tgl/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-tgl)](https://raw.githubusercontent.com/giellalt/lang-tgl/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-tgl)](https://github.com/giellalt/lang-tgl/blob/main/LICENSE)
 
 This repository contains finite state source files for the Tagalog language,
 for building morphological analysers, proofing tools
