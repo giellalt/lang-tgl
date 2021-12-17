@@ -608,6 +608,32 @@ These were the set types.
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-tgl/blob/main/../src/cg3/functions.cg3)</small>
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/particles.lexc)</small>
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/pronouns.lexc)</small>
+MA- verbs
+
+-UM- verbs
+
+-IN- verbs
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/verbs.lexc)</small>
+POS
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/root.lexc)</small>
+
 
 
 
@@ -637,32 +663,6 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/affixes/verbs.lexc)</small>
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/particles.lexc)</small>
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/pronouns.lexc)</small>
-MA- verbs
-
--UM- verbs
-
--IN- verbs
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/stems/verbs.lexc)</small>
-POS
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-tgl/blob/main/../src/fst/root.lexc)</small>
 
 
 We describe here how abbreviations are in Tagalog are read out, e.g.
