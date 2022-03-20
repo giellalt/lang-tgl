@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-tgl)](https://github.com/giellalt/lang-tgl/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-tgl)](https://github.com/giellalt/lang-tgl/issues)
-[![Build status](https://github.com/giellalt/lang-tgl/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-tgl/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-tgl/main/badge.svg)](https://github.com/giellalt/lang-tgl/actions)
 
 This page documents the work on the **Tagalog language model**. 
 
