@@ -1,6 +1,6 @@
 
 
-*verbs examples:*
+* verbs examples:*
 * *magbasa:* `basa+V+Imp`
 * *nagsalita:* `salita+V+Comp`
 * *magbabasa:* `basa+V+Cont`

@@ -172,7 +172,7 @@ These were the set types.
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-tgl/blob/main/src/cg3/functions.cg3)</small>
 
-*verbs examples:*
+* verbs examples:*
 * *magbasa:* `basa+V+Imp`
 * *nagsalita:* `salita+V+Comp`
 * *magbabasa:* `basa+V+Cont`
