@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>tl</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Tagalog</title>
+    <title>Tagalog</title>
     <description>This is an fst-based speller for Tagalog. It is based
     on the normative subset of the morphological analyser for Tagalog.
     The source code can be found at:
