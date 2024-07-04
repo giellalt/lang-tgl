@@ -15,24 +15,27 @@ Alphabet
 
 Sets
 
-  C = b c d f g h j k l m n ñ p q r s t  v w x y z ;
-  V = a e i o u ;
+  Cns = b c d f g h j k l m n ñ p q r s t  v w x y z ;
+  Vow = a e i o u ;
 
 ;
 
 Rules
 
 "R realization as Consonant"
-%{R%}:CC <=> _ ( 0:? 0:? ) %{E%}: CC ; where CC in C ;
+%{R%}:CC <=> _ ( 0:? 0:? ) %{E%}: CC ; where CC in Cns ;
 
 "R deletion"
-%{R%}:0 <=> _ ( 0:? 0:? ) %{E%}: VV ; where VV in V ;
+%{R%}:0 <=> _ ( 0:? 0:? ) %{E%}: VV ; where VV in Vow ;
 
 "E realization as Vowel"
-%{E%}:VV <=> ( 0:u 0:m ) _ (C:) VV ; where VV in V ;
+%{E%}:VV <=> ( 0:u 0:m ) _ (C:) VV ; where VV in Vow ;
 
 "U insertion in -um- infix"
 0:u <=> .#. ?: _ (0:m) \0:* %{um%}:0 ;
+!This Rule and the following rules may require a change of contexts
+! essentially, it says that there are no prefixes before an infix, which is not true for Cebuano
+! See how this is in Tagalog and Tagabawa. Jaska 2024-07-04
 
 "M insertion in -um- infix"
 0:m <=> .#. ?: 0:u _ \0:* %{um%}:0 ;
