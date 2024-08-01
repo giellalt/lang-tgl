@@ -1,31 +1,40 @@
 LEXICON Pronouns
 !!! Direct
- ako+1p+Sg+Dir:ako # ;      ! 1st person singular
- kitá # ;     ! 1st person dual
- tayo # ;     ! 1st person inclusive
- kamí # ;     ! 1st person exclusive
- ikáw # ;     ! 2nd person singular
- kayó # ;     ! 2nd person plural
- siyá # ;     ! 3rd person singular
- silá # ;     ! 3rd person plural
+ako+Pron+Pers+Sg1+Dir:akó # ;      ! 1st person singular
+ako+v1+Pron+Pers+Du1+Dir:kitá # ;     ! 1st person dual
+!versions: https://en.wikipedia.org/wiki/Tagalog_grammar#Pronouns
+ako+v2+Pron+Pers+Du1+Dir:katá # ;     ! 1st person dual
+ako+Pron+Pers+Pl1+Incl+Dir:tayo # ;     ! 1st person inclusive
+ako+Pron+Pers+Pl1+Excl+Dir:kamí # ;     ! 1st person exclusive
+ikaw+v1+Pron+Pers+Sg2+Dir:ikáw # ;     ! 2nd person singular
+ikaw+v2+Pron+Pers+Sg2+Dir:ka # ;     ! 2nd person singular
+ikaw+Pron+Pers+Pl2+Dir:kayó # ;     ! 2nd person plural
+siya+Pron+Pers+Sg3+Dir:siyá # ;     ! 3rd person singular
+siya+Pron+Pers+Pl3+Dir:silá # ;     ! 3rd person plural
 
  !!! Indirect (Genitive)
- ko # ;       ! 1st person singular
- nita # ;     ! 1st person dual
- natin # ;    ! 1st person inclusive
- namin # ;    ! 1st person exclusive
- mo # ;       ! 2nd person singular
- ninyó # ;    ! 2nd person plural
- niyá # ;     ! 3rd person singular
- nilá # ;     ! 3rd person plural
+ako+v1+Pron+Pers+Sg1+Idr:ko # ;       ! 1st person singular
+ako+v2+Pron+Pers+Sg1+Idr:nakin # ;       ! 1st person singular
+ako+v1+Pron+Pers+Du1+Idr:nita # ;     ! 1st person dual
+ako+v2+Pron+Pers+Du1+Idr:nata # ;     ! 1st person dual
+ako+v3+Pron+Pers+Du1+Idr:ta # ;     ! 1st person dual
+ako+Pron+Pers+Pl1+Incl+Idr:natin # ;    ! 1st person inclusive
+ako+Pron+Pers+Pl1+Excl+Idr:namin # ;    ! 1st person exclusive
+ikaw+v1+Pron+Pers+Sg2+Idr:mo # ;       ! 2nd person singular
+ikaw+v2+Pron+Pers+Sg2+Idr:niyo # ;       ! 2nd person singular
+ikaw+Pron+Pers+Pl2+Idr:ninyó # ;    ! 2nd person plural
+siya+Pron+Pers+Sg3+Idr:niyá # ;     ! 3rd person singular
+siya+Pron+Pers+Pl3+Idr:nilá # ;     ! 3rd person plural
 
  !!! Oblique
- akin # ;     ! 1st person singular
- kanitá # ;   ! 1st person dual
- atin # ;     ! 1st person inclusive
- amin # ;     ! 1st person exclusive
- iyó # ;      ! 2nd person singular
- inyó # ;     ! 2nd person plural
- kaniyá # ;   ! 3rd person singular
- kanilá # ;   ! 3rd person plural
+ako+Pron+Pers+Sg1+Obl:akin # ;     ! 1st person singular
+ako+v1+Pron+Pers+Du1+Obl:kanitá # ;   ! 1st person dual
+ako+v2+Pron+Pers+Du1+Obl:kanatá # ;   ! 1st person dual
+ako+v3+Pron+Pers+Du1+Obl:atá # ;   ! 1st person dual
+ako+Pron+Pers+Pl1+Incl+Obl:atin # ;     ! 1st person inclusive
+ako+Pron+Pers+Pl1+Excl+Obl:amin # ;     ! 1st person exclusive
+ikaw+Pron+Pers+Sg2+Obl:iyó # ;      ! 2nd person singular
+ikaw+Pron+Pers+Pl2+Obl:inyó # ;     ! 2nd person plural
+siya+Pron+Pers+Sg3+Obl:kaniyá # ;   ! 3rd person singular
+siya+Pron+Pers+Pl3+Obl:kanilá # ;   ! 3rd person plural
 
