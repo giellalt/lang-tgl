@@ -1,76 +1,76 @@
 ! Lexicon containing noun stems
 LEXICON Nouns
 ! Nouns ending in vowel
- eroplano       Noun_V; ! airplane
- pusa           Noun_V; ! cat
- bansa          Noun_V; ! country
- baka           Noun_V; ! cow
- aso            Noun_V; ! dog
- magsasaka      Noun_V; ! farmer
- butiki         Noun_V; ! lizard
- pera           Noun_V; ! money
- telepono       Noun_V; ! telephone
- linggo         Noun_V; ! week
- pangalawa      Noun_V; ! second
- minuto         Noun_V; ! minute
- kape           Noun_V; ! coffee
- serbesa        Noun_V; ! beer
- yelo           Noun_V; ! ice
- tsaa           Noun_V; ! tea
- ina            Noun_V; ! mother
- ama            Noun_V; ! father
- asawang% lalaki Noun_V; ! husband
- asawang% babae  Noun_V; ! wife
- anak% na% lalaki Noun_V; ! son
- anak% na% babae  Noun_V; ! daughter
- isda           Noun_V; ! fish
- kusina         Noun_V; ! kitchen
- banyo          Noun_V; ! bathroom
- kompyuter      Noun_V; ! computer
- kama           Noun_V; ! bed
- supa           Noun_V; ! couch/sofa
- babae          Noun_V; ! woman
- lalaki         Noun_V; ! man
- nobya          Noun_V; ! girlfriend
- nobyo          Noun_V; ! boyfriend
- bata           Noun_V; ! child
- guro           Noun_V; ! teacher
- ulo            Noun_V; ! head
- niyebe         Noun_V; ! snow
- kamiseta       Noun_V; ! shirt
- matanda        Noun_V; ! adult
- batang% babae  Noun_V; ! girl
- batang% lalaki Noun_V; ! boy
+ama+N:amaʼ NOUN_V; ! father
+anak% na% lalaki+N:anak% na% lalaki NOUN_V; ! son
+anak% na% babae+N:anak% na% babaʼeʼ NOUN_V; ! daughter
+asawang% lalaki+N:asawang% lalaki NOUN_V; ! husband
+asawang% babae+N:asawang% babaʼeʼ NOUN_V; ! wife
+aso+N:aso NOUN_V; ! dog
+babae+N:babaʼeʼ NOUN_V; ! woman
+baka+N:baka NOUN_V; ! cow
+bansa+N:bansa NOUN_V; ! country
+banyo+N:banyo NOUN_V; ! bathroom
+bata+N:bata NOUN_V; ! child
+batang% babae+N:batang% babaʼeʼ NOUN_V; ! girl
+batang% lalaki+N:batang% lalaki NOUN_V; ! boy
+butiki+N:butiki NOUN_V; ! lizard
+eroplano+N:eroplano NOUN_V; ! airplane
+guro+N:guro NOUN_V; ! teacher
+ina+N:inaʼ NOUN_V; ! mother
+isda+N:isdaʼ NOUN_V; ! fish
+kama+N:kama NOUN_V; ! bed
+kamiseta+N:kamiseta NOUN_V; ! shirt
+kompyuter+N:kompyuter NOUN_V; ! computer
+kusina+N:kusina NOUN_V; ! kitchen
+lalaki+N:lalaki NOUN_V; ! man
+linggo+N:linggo NOUN_V; ! week
+magsasaka+N:magsasaka NOUN_V; ! farmer
+matanda+N:matanda NOUN_V; ! adult
+minuto+N:minuto NOUN_V; ! minute
+niyebe+N:niyebe NOUN_V; ! snow
+nobya+N:nobya NOUN_V; ! girlfriend
+nobyo+N:nobyo NOUN_V; ! boyfriend
+pangalawa+N:pangalawa NOUN_V; ! second
+pera+N:pera NOUN_V; ! money
+pusa+N:pusa NOUN_V; ! cat
+kape+N:kape NOUN_V; ! coffee
+serbesa+N:serbesa NOUN_V; ! beer
+supa+N:supa NOUN_V; ! couch/sofa
+telepono+N:telepono NOUN_V; ! telephone
+tsaa+N:tsaʼaʼ NOUN_V; ! tea
+ulo+N:ulo NOUN_V; ! head
+yelo+N:yelo NOUN_V; ! ice
 
 ! Nouns ending in 'n'
- pagkain        Noun_N; ! food
- taon           Noun_N; ! year
- pangalan       Noun_N; ! name
- telebisyon     Noun_N; ! television
- pantalon       Noun_N; ! pants
- kaibigan       Noun_N; ! friend
- ulan           Noun_N; ! rain
+kaibigan+N:kaibigan NOUN_N; ! friend
+pagkain+N:pagkain NOUN_N; ! food
+pangalan+N:pangalan NOUN_N; ! name
+pantalon+N:pantalon NOUN_N; ! pants
+taon+N:taon NOUN_N; ! year
+telebisyon+N:telebisyon NOUN_N; ! television
+ulan+N:ulan NOUN_N; ! rain
 
 ! Nouns ending in consonant other than 'n'
- doktor         Noun_C; ! doctor
- kambing        Noun_C; ! goat
- kapatid        Noun_C; ! sibling
- oras           Noun_C; ! hour
- ulap           Noun_C; ! cloud
- sapatos        Noun_C; ! shoe
- ngayong% araw  Noun_C; ! today
- nars           Noun_C; ! nurse
- hotel          Noun_C; ! hotel
- manok          Noun_C; ! chicken
- tubig          Noun_C; ! water
- medyas         Noun_C; ! sock
+doktor+N:doktor NOUN_C; ! doctor
+hotel+N:hotel NOUN_C; ! hotel
+kambing+N:kambing NOUN_C; ! goat
+kapatid+N:kapatid NOUN_C; ! sibling
+manok+N:manok NOUN_C; ! chicken
+medyas+N:medyas NOUN_C; ! sock
+ngayong% araw+N:ngayong% araw NOUN_C; ! today
+nars+N:nars NOUN_C; ! nurse
+oras+N:oras NOUN_C; ! hour
+sapatos+N:sapatos NOUN_C; ! shoe
+tubig+N:tubig NOUN_C; ! water
+ulap+N:ulap NOUN_C; ! cloud
 
-LEXICON Noun_V
+LEXICON NOUN_V
  @U.Lig.V@+N:@U.Lig.V@  Ligatures ;
 
- LEXICON Noun_N
+LEXICON NOUN_N
  @U.Lig.N@+N:@U.Lig.N@  Ligatures ;
 
- LEXICON Noun_C
+LEXICON NOUN_C
  @U.Lig.C@+N:@U.Lig.C@  Ligatures ;
 
