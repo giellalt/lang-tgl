@@ -1,15 +1,16 @@
 Multichar_Symbols
 
 !! POS
-+V      ! Verb
-+N      ! Noun
-+Adj    ! Adjective
-+Adv    ! Adverb
-+Pre    ! Preposition
-+Pro    ! Pronoun
-+Cnj    ! Conjunction
-+Pcl    ! Particle
-+Lig    ! Ligature
++V      !!≈ * **@CODE@** -  Verb
++N      !!≈ * **@CODE@** -  Noun
++A    !!≈ * **@CODE@** -  Adjective
++Adv    !!≈ * **@CODE@** -  Adverb
++Pr    !!≈ * **@CODE@** -  Preposition
++Pron    !!≈ * **@CODE@** -  Pronoun
++CC    !!≈ * **@CODE@** -  Conjunction
++CS    !!≈ * **@CODE@** -  Subjunction
++Pcle    !!≈ * **@CODE@** -  Particle
++Lig    !!≈ * **@CODE@** -  Ligature
 
 !!! Verb
 ! Aspect
@@ -19,12 +20,12 @@ Multichar_Symbols
 @U.Asp.Imp@
 @U.Asp.Rcmp@
 @U.Asp.Inf@
-+Comp
-+Cont
-+Prog
-+Rcmp
-+Inf
-+Imp
++Comp !!≈ * **@CODE@** - 
++Cont !!≈ * **@CODE@** - 
++Prog !!≈ * **@CODE@** - 
++Rcmp !!≈ * **@CODE@** - 
++Inf !!≈ * **@CODE@** - 
++Imp !!≈ * **@CODE@** - 
 +1p ! TODO figure out where to go
 %{um%} ! -um- infix trigger
 %{in%} ! -in- infix trigger
@@ -44,19 +45,35 @@ Multichar_Symbols
 +Ben
 +Ins
 +Rsn
-+Dir
++Dir !!≈ * **@CODE@** - 
 +Rcp
 
 ! Mood
-+Ind
-+Dis
-+Soc
-+Pot
++Ind !!≈ * **@CODE@** - Indicative
++Dis !!≈ * **@CODE@** - Distributive
++Soc !!≈ * **@CODE@** - Social
++Pot !!≈ * **@CODE@** - Potential
 
 !!! Case particle inflections
 +Comm +Prop     ! Common or proper nouns
-+Sg +Pl         ! Person
-+Dir +Idr +Obl  ! Case
++Sg +Pl         ! Number
+ ! Case
++Dir !!≈ * **@CODE@** - Direct
++Idr !!≈ * **@CODE@** - Indirect
++Obl !!≈ * **@CODE@** - Oblique
+
+!! ## Tags distinguishing different versions of the same lemma (before POS)
++v1   !!≈ * @CODE@
++v2   !!≈ * @CODE@
++v3   !!≈ * @CODE@
++v4   !!≈ * @CODE@
++v5   !!≈ * @CODE@
++v6   !!≈ * @CODE@
++v7   !!≈ * @CODE@
++v8   !!≈ * @CODE@
++v9   !!≈ * @CODE@
++v10   !!≈ * @CODE@
+
 
 !!! Punctuation tags
 +CLB
