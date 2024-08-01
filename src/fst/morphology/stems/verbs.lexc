@@ -1,57 +1,57 @@
 LEXICON mag_verbs
 ! MAG- verbs
- aral           V  "study" ;
- basa           V  "read" ;
- salita         V  "talk or speak" ;
- sulat          V  "write" ;
- saulo          V  "memorize" ;
- lakad          V  "walk" ;
- bigay          V  "give" ;
- isip           V  "think" ;
- linis          V  "clean" ;
- tanong         V  "ask" ;
- simula         V  "start" ;
- dala           V  "give" ;
- sepilyo        V  "brush" ;
- sara           V  "close" ;
+aral+V:aral V  "study" ;
+basa+V:basa V  "read" ;
+bigay+V:bigay V  "give" ;
+dala+V:dala V  "give" ;
+isip+V:isip V  "think" ;
+lakad+V:lakad V  "walk" ;
+linis+V:linis V  "clean" ;
+salita+V:salita V  "talk or speak" ;
+sara+V:sara V  "close" ;
+saulo+V:saulo V  "memorize" ;
+sepilyo+V:sepilyo V  "brush" ;
+simula+V:simula V  "start" ;
+sulat+V:sulat V  "write" ;
+tanong+V:tanong V  "ask" ;
 
 LEXICON ma_verbs
 !! MA- verbs
- kinig          V  "listen" ;
- nood           V  "watch" ;
- tulog          V  "sleep" ;
- ligo           V  "bathe" ;
- pasyol         V  "stroll" ;
- higa           V  "lie down" ;
- upo            V  "sit" ;
- tuto           V  "learn" ;
- talo           V  "lose (a game or competition)" ;
- nalo           V  "win (a game or competition)" ;
- basag          V  "break" ;
+basag+V:basag V  "break" ;
+higa+V:higa V  "lie down" ;
+kinig+V:kinig V  "listen" ;
+ligo+V:ligo V  "bathe" ;
+nalo+V:nalo V  "win (a game or competition)" ;
+nood+V:nood V  "watch" ;
+pasyol+V:pasyol V  "stroll" ;
+talo+V:talo V  "lose (a game or competition)" ;
+tulog+V:tulog V  "sleep" ;
+tuto+V:tuto V  "learn" ;
+upo+V:upo V  "sit" ;
 
 LEXICON um_verbs
 !! -UM- verbs
- kain           um_infix  "eat" ;
- kanta          um_infix  "sing" ;
- tawa           um_infix  "laugh" ;
- higa           um_infix  "lie down" ;
- sigaw          um_infix  "shout" ;
- takbo          um_infix  "run" ;
- lakad          um_infix  "walk" ;
- pasok          um_infix  "enter" ;
- punta          um_infix  "go" ;
- dumating       um_infix  "arrive" ;
+dumating+V:dumating um_infix  "arrive" ;
+higa+V:higa um_infix  "lie down" ;
+kain+V:kain um_infix  "eat" ;
+kanta+V:kanta um_infix  "sing" ;
+lakad+V:lakad um_infix  "walk" ;
+pasok+V:pasok um_infix  "enter" ;
+punta+V:punta um_infix  "go" ;
+sigaw+V:sigaw um_infix  "shout" ;
+takbo+V:takbo um_infix  "run" ;
+tawa+V:tawa um_infix  "laugh" ;
 
 LEXICON in_verbs
 !! -IN- verbs
- kain           in_infix  "eat" ;
- basag          in_infix  "break" ;
- sabi           in_infix  "say" ;
- pilit          in_infix  "insist or force" ;
- tawag          in_infix  "call by name" ;
- banggit        in_infix  "mention" ;
- pitas          in_infix  "pick or harvest" ;
- sira           in_infix  "destroy" ;
- bura           in_infix  "erase" ;
- sipa           in_infix  "kick" ;
+banggit+V:banggit in_infix  "mention" ;
+basag+V:basag in_infix  "break" ;
+bura+V:bura in_infix  "erase" ;
+kain+V:kain in_infix  "eat" ;
+pilit+V:pilit in_infix  "insist or force" ;
+pitas+V:pitas in_infix  "pick or harvest" ;
+sabi+V:sabi in_infix  "say" ;
+sipa+V:sipa in_infix  "kick" ;
+sira+V:sira in_infix  "destroy" ;
+tawag+V:tawag in_infix  "call by name" ;
 
