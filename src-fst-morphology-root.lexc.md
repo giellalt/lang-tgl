@@ -18,6 +18,8 @@ POS
 * **+Inf** - 
 * **+Imp** - 
 
+* **@D.Lig@** - disallow Lig
+
 * **+Dir** - 
 
 * **+Ind** - Indicative
