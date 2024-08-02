@@ -36,6 +36,7 @@ Multichar_Symbols
 @U.Lig.V@
 @U.Lig.N@
 @U.Lig.C@
+@D.Lig@  !!≈ * **@CODE@** - disallow Lig
 +Lig
 
 ! Trigger
