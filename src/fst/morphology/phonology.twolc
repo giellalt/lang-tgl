@@ -1,7 +1,10 @@
 Alphabet
 
-  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z %+:0
-  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z %+:0
+  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z %+:0 ! small
+  
+  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z %+:0 ! capital
+
+ ʼ ! Modifier Letter Apostrophe for glottal stop
 
  %{R%}
 
@@ -11,14 +14,44 @@ Alphabet
 
  %{in%}:0 ! For to trigger the -in- infix
 
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+ #7     ! #
+
+! Morpheme boundaries:
+ «  ! Derivational prefix
+ »  ! Derivational suffix
+ %< ! Inflectional prefx
+ %> ! Inflectional suffix
+ #  ! Word boundary for both lexicalised and dynamic compounds
+ %^ ! (exceptional) soft hyphenation point
+ ∑ ! Used in front of # for dynamic compounds.
+
+ ! Escaped chars
+ %  
+
+! End of alphabet definitions
+
 ;
 
 Sets
 
-  Cns = b c d f g h j k l m n ñ p q r s t  v w x y z ;
-  Vow = a e i o u ;
+  Vow = a e i o u 
+        A E I O U ;
+	 
+  Cns = b c d f g h j k l m n ñ p q r s t v w x y z 
+        B C D F G H J K L M N Ñ P Q R S T V W X Y Z ;
 
 ;
+
+! ============ !
+! Rule section !
+! ============ !
+
+
 
 Rules
 
@@ -45,6 +78,16 @@ Rules
 
 "N insertion in -in- infix"
 0:n <=> .#. ?: 0:i _ \0:* %{in%}:0 ;
+
+"Glottal stop loss before linker"
+ʼ:0 <=> [ Vow | Vow y ]  _ %> n g ;
+
+!!€ amaʼ>ng
+!!€ ama0>ng
+!!$ amaʼ>ng
+!!$ amaʼ>ng
+
+
 
 ;
 
