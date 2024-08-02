@@ -66,11 +66,11 @@ tubig+N:tubig NOUN_C; ! water
 ulap+N:ulap NOUN_C; ! cloud
 
 LEXICON NOUN_V
- @U.Lig.V@+N:@U.Lig.V@  Ligatures ;
+ @U.Lig.V@:@U.Lig.V@  Ligatures ;
 
 LEXICON NOUN_N
- @U.Lig.N@+N:@U.Lig.N@  Ligatures ;
+ @U.Lig.N@:@U.Lig.N@  Ligatures ;
 
 LEXICON NOUN_C
- @U.Lig.C@+N:@U.Lig.C@  Ligatures ;
+ @U.Lig.C@:@U.Lig.C@  Ligatures ;
 
