@@ -1,6 +1,8 @@
 
 MA- verbs
 
+-UM- AF, -IN- PF
+
 -UM- verbs
 
 -IN- verbs

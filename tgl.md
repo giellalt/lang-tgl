@@ -325,6 +325,8 @@ given the proper use of these flags.
 
 MA- verbs
 
+-UM- AF, -IN- PF
+
 -UM- verbs
 
 -IN- verbs
