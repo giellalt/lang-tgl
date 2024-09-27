@@ -27,8 +27,18 @@ Multichar_Symbols
 +Inf !!≈ * **@CODE@** - 
 +Imp !!≈ * **@CODE@** - 
 +1p ! TODO figure out where to go
-%{um%} ! -um- infix trigger
-%{in%} ! -in- infix trigger
+@U.FOC.A@ ! Agent focus
+@U.FOC.P@ ! Patient focus
+@U.FOC.B@ ! Bi focus
+@U.FOC.L@ ! Locative focus
+@U.FOC.I@ ! Instrument focus
++AF ! Agent focus
++PF
++BF
++LF
++IF
+%{um%} ! -um- infix trigger AF
+%{in%} ! -in- infix trigger PF
 %{R%}
 %{E%}
 

@@ -29,11 +29,15 @@ tulog+V:tulog V  "sleep" ;
 tuto+V:tuto V  "learn" ;
 upo+V:upo V  "sit" ;
 
+
+LEXICON infix_verbs
+!! -UM- AF, -IN- PF
+kain+V:kain in/um_infix  "eat" ;
+
 LEXICON um_verbs
 !! -UM- verbs
 dumating+V:dumating um_infix  "arrive" ;
 higa+V:higa um_infix  "lie down" ;
-kain+V:kain um_infix  "eat" ;
 kanta+V:kanta um_infix  "sing" ;
 lakad+V:lakad um_infix  "walk" ;
 pasok+V:pasok um_infix  "enter" ;
@@ -47,7 +51,6 @@ LEXICON in_verbs
 banggit+V:banggit in_infix  "mention" ;
 basag+V:basag in_infix  "break" ;
 bura+V:bura in_infix  "erase" ;
-kain+V:kain in_infix  "eat" ;
 pilit+V:pilit in_infix  "insist or force" ;
 pitas+V:pitas in_infix  "pick or harvest" ;
 sabi+V:sabi in_infix  "say" ;

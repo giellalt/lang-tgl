@@ -13,6 +13,13 @@ LEXICON verb_prefixes
 @U.Asp.Imp@:@U.Asp.Imp@ma       ma_verbs ;
 @U.Asp.Inf@                     ma_verbs ;
 
+!!! -UM- AF, -IN- PF
+@U.Asp.Comp@                            infix_verbs ;
+@U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     infix_verbs ;
+@U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     infix_verbs ;
+@U.Asp.Imp@                             infix_verbs ;
+@U.Asp.Inf@                             infix_verbs ;
+
 !!! -UM- Verbs
 @U.Asp.Comp@                            um_verbs ;
 @U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     um_verbs ;
@@ -35,6 +42,17 @@ LEXICON ma_redup
 @U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     ma_verbs ;
 @U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     ma_verbs ;
 
+LEXICON in/um_infix
+@U.FOC.P@@U.Asp.Comp@:@U.FOC.P@@U.Asp.Comp@%{in%} PRE_V ;
+@U.FOC.P@@U.Asp.Prog@:@U.FOC.P@@U.Asp.Prog@%{in%} PRE_V ;
+@U.FOC.P@@U.Asp.Cont@:@U.FOC.P@@U.Asp.Cont@in     PRE_V ;
+@U.FOC.P@@U.Asp.Imp@:@U.FOC.P@@U.Asp.Imp@in       PRE_V ;
+@U.Asp.Inf@:@U.Asp.Inf@         PRE_V ;
+@U.FOC.A@@U.Asp.Comp@:@U.FOC.A@@U.Asp.Comp@%{um%} PRE_V ;
+@U.FOC.A@@U.Asp.Prog@:@U.FOC.A@@U.Asp.Prog@%{um%} PRE_V ;
+@U.FOC.A@@U.Asp.Cont@:@U.FOC.A@@U.Asp.Cont@       PRE_V ;
+@U.FOC.A@@U.Asp.Imp@:@U.FOC.A@@U.Asp.Imp@%{um%}   PRE_V ;
+
 LEXICON um_infix
 @U.Asp.Comp@:@U.Asp.Comp@%{um%} V ;
 @U.Asp.Prog@:@U.Asp.Prog@%{um%} V ;
@@ -49,12 +67,16 @@ LEXICON in_infix
 @U.Asp.Imp@:@U.Asp.Imp@in       V ;
 @U.Asp.Inf@:@U.Asp.Inf@         V ;
 
+LEXICON PRE_V
+@U.FOC.A@+AF:@U.FOC.A@ V ;
+@U.FOC.P@+PF:@U.FOC.P@ V ;
+
 LEXICON V
-@U.Asp.Comp@+V+Comp:@U.Asp.Comp@    # ;
-@U.Asp.Prog@+V+Prog:@U.Asp.Prog@    # ;
-@U.Asp.Cont@+V+Cont:@U.Asp.Cont@    # ;
-@U.Asp.Imp@+V+Imp:@U.Asp.Imp@       # ;
-@U.Asp.Inf@+V+Inf:@U.Asp.Inf@       # ;
+@U.Asp.Comp@+Comp:@U.Asp.Comp@    # ;
+@U.Asp.Prog@+Prog:@U.Asp.Prog@    # ;
+@U.Asp.Cont@+Cont:@U.Asp.Cont@    # ;
+@U.Asp.Imp@+Imp:@U.Asp.Imp@       # ;
+@U.Asp.Inf@+Inf:@U.Asp.Inf@       # ;
 
 !!€gt-desc: verbs
 !!€ magbasa:    basa+V+Imp
