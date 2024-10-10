@@ -1,5 +1,8 @@
 
 
+* infix examples:*
+* *kinain:* `kain+V+Prog`
+
 * verbs examples:*
 * *magbasa:* `basa+V+Imp`
 * *nagsalita:* `salita+V+Comp`

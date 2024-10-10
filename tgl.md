@@ -183,6 +183,9 @@ These were the set types.
 
 
 
+* infix examples:*
+* *kinain:* `kain+V+Prog`
+
 * verbs examples:*
 * *magbasa:* `basa+V+Imp`
 * *nagsalita:* `salita+V+Comp`
@@ -224,11 +227,11 @@ POS
 * **+Lig** -  Ligature
 
 * **+Comp** - 
-* **+Cont** - 
-* **+Prog** - 
+* **+Cont** - Continuative
+* **+Prog** - Progressive
 * **+Rcmp** - 
-* **+Inf** - 
-* **+Imp** - 
+* **+Inf** - Infinitive
+* **+Imp** - Imperative
 
 * **@D.Lig@** - disallow Lig
 
@@ -328,8 +331,6 @@ MA- verbs
 -UM- AF, -IN- PF
 
 -UM- verbs
-
--IN- verbs
 
 * * *
 

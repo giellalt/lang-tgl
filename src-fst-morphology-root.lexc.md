@@ -12,11 +12,11 @@ POS
 * **+Lig** -  Ligature
 
 * **+Comp** - 
-* **+Cont** - 
-* **+Prog** - 
+* **+Cont** - Continuative
+* **+Prog** - Progressive
 * **+Rcmp** - 
-* **+Inf** - 
-* **+Imp** - 
+* **+Inf** - Infinitive
+* **+Imp** - Imperative
 
 * **@D.Lig@** - disallow Lig
 
