@@ -27,12 +27,13 @@ LEXICON verb_prefixes
 @U.Asp.Imp@                             um_verbs ;
 @U.Asp.Inf@                             um_verbs ;
 
-!!! -IN- Verbs
-@U.Asp.Comp@                            in_verbs ;
-@U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     in_verbs ;
-@U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     in_verbs ;
-@U.Asp.Imp@                             in_verbs ;
-@U.Asp.Inf@                             in_verbs ;
+!!! -IN- Verbs 2024-10-10 Most if not all verbs can be agent-focus or patient-focus, i.e., iv, tv sort of thing
+! thus in_verbs and um_verbs are pointed to in/um_infix
+!@U.Asp.Comp@                            in_verbs ;
+!@U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     in_verbs ;
+!@U.Asp.Cont@:@U.Asp.Cont@%{R%}%{E%}     in_verbs ;
+!@U.Asp.Imp@                             in_verbs ;
+!@U.Asp.Inf@                             in_verbs ;
 
 LEXICON mag_redup
 @U.Asp.Prog@:@U.Asp.Prog@%{R%}%{E%}     mag_verbs ;
@@ -52,6 +53,8 @@ LEXICON in/um_infix
 @U.FOC.A@@U.Asp.Prog@:@U.FOC.A@@U.Asp.Prog@%{um%} PRE_V ;
 @U.FOC.A@@U.Asp.Cont@:@U.FOC.A@@U.Asp.Cont@       PRE_V ;
 @U.FOC.A@@U.Asp.Imp@:@U.FOC.A@@U.Asp.Imp@%{um%}   PRE_V ;
+!!€gt-desc: infix
+!!€ kinain:      kain+V+Prog
 
 LEXICON um_infix
 @U.Asp.Comp@:@U.Asp.Comp@%{um%} V ;
@@ -60,12 +63,13 @@ LEXICON um_infix
 @U.Asp.Imp@:@U.Asp.Imp@%{um%}   V ;
 @U.Asp.Inf@:@U.Asp.Inf@         V ;
 
-LEXICON in_infix
-@U.Asp.Comp@:@U.Asp.Comp@%{in%} V ;
-@U.Asp.Prog@:@U.Asp.Prog@%{in%} V ;
-@U.Asp.Cont@:@U.Asp.Cont@in     V ;
-@U.Asp.Imp@:@U.Asp.Imp@in       V ;
-@U.Asp.Inf@:@U.Asp.Inf@         V ;
+!LEXICON in_infix
+!@U.Asp.Comp@:@U.Asp.Comp@%{in%} V ;
+!@U.Asp.Prog@:@U.Asp.Prog@%{in%} V ;
+!@U.Asp.Cont@:@U.Asp.Cont@in     V ;
+!@U.Asp.Imp@:@U.Asp.Imp@in       V ;
+!@U.Asp.Inf@:@U.Asp.Inf@         V ;
+
 
 LEXICON PRE_V
 @U.FOC.A@+AF:@U.FOC.A@ V ;
