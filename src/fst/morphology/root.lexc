@@ -21,11 +21,11 @@ Multichar_Symbols
 @U.Asp.Rcmp@
 @U.Asp.Inf@
 +Comp !!≈ * **@CODE@** - 
-+Cont !!≈ * **@CODE@** - 
-+Prog !!≈ * **@CODE@** - 
++Cont !!≈ * **@CODE@** - Continuative
++Prog !!≈ * **@CODE@** - Progressive
 +Rcmp !!≈ * **@CODE@** - 
-+Inf !!≈ * **@CODE@** - 
-+Imp !!≈ * **@CODE@** - 
++Inf !!≈ * **@CODE@** - Infinitive
++Imp !!≈ * **@CODE@** - Imperative
 +1p ! TODO figure out where to go
 @U.FOC.A@ ! Agent focus
 @U.FOC.P@ ! Patient focus
@@ -33,10 +33,10 @@ Multichar_Symbols
 @U.FOC.L@ ! Locative focus
 @U.FOC.I@ ! Instrument focus
 +AF ! Agent focus
-+PF
-+BF
-+LF
-+IF
++PF ! Patient focus
++BF ! Bifocus CHECKME 2024-10-10
++LF ! Locative focus
++IF ! Instrument focus 
 %{um%} ! -um- infix trigger AF
 %{in%} ! -in- infix trigger PF
 %{R%}
