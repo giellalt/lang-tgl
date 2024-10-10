@@ -32,29 +32,29 @@ upo+V:upo V  "sit" ;
 
 LEXICON infix_verbs
 !! -UM- AF, -IN- PF
+banggit+V:banggit in/um_infix  "mention" ;
+basag+V:basag in/um_infix  "break" ;
+bura+V:bura in/um_infix  "erase" ;
+higa+V:higa in/um_infix  "lie down" ;
 kain+V:kain in/um_infix  "eat" ;
+kanta+V:kanta in/um_infix  "sing" ;
+lakad+V:lakad in/um_infix  "walk" ;
+pasok+V:pasok in/um_infix  "enter" ;
+pilit+V:pilit in_infix  "insist or force" ;
+pitas+V:pitas in_infix  "pick or harvest" ;
+punta+V:punta in/um_infix  "go" ;
+sabi+V:sabi in_infix  "say" ;
+sigaw+V:sigaw in/um_infix  "shout" ;
+sipa+V:sipa in_infix  "kick" ;
+sira+V:sira in_infix  "destroy" ;
+takbo+V:takbo in/um_infix  "run" ;
+tawa+V:tawa in/um_infix  "laugh" ;
+tawag+V:tawag in/um_infix  "call by name" ;
 
 LEXICON um_verbs
 !! -UM- verbs
-dumating+V:dumating um_infix  "arrive" ;
-higa+V:higa um_infix  "lie down" ;
-kanta+V:kanta um_infix  "sing" ;
-lakad+V:lakad um_infix  "walk" ;
-pasok+V:pasok um_infix  "enter" ;
-punta+V:punta um_infix  "go" ;
-sigaw+V:sigaw um_infix  "shout" ;
-takbo+V:takbo um_infix  "run" ;
-tawa+V:tawa um_infix  "laugh" ;
+dumating+V:dumating um_infix  "arrive" ;!CHECKME 2024-10-10
 
-LEXICON in_verbs
-!! -IN- verbs
-banggit+V:banggit in_infix  "mention" ;
-basag+V:basag in_infix  "break" ;
-bura+V:bura in_infix  "erase" ;
-pilit+V:pilit in_infix  "insist or force" ;
-pitas+V:pitas in_infix  "pick or harvest" ;
-sabi+V:sabi in_infix  "say" ;
-sipa+V:sipa in_infix  "kick" ;
-sira+V:sira in_infix  "destroy" ;
-tawag+V:tawag in_infix  "call by name" ;
+!LEXICON in_verbs 2024-10-10
+!!! -IN- verbs
 
