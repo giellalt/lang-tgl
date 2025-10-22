@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-tgl)](https://github.com/giellalt/lang-tgl/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-tgl)](https://github.com/giellalt/lang-tgl/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-tgl?label=CI)](https://builds.giellalt.org/pipelines/lang-tgl/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the **Tagalog language model**. 
 
