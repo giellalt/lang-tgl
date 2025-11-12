@@ -1,6 +1,3 @@
-spellername = "Tagalog"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "375D1CE1-6A89-43F1-A429-368860DD19C2", kind = "nsis" },
     { value = "EFCFBA6F-C92C-4A69-9F89-DBCDECD45CB0", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Tagalog"
+version = "0.1.1"
+
+[package.grammar]
+name = "Tagalog"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Tagalog"
+version = "0.1.0"
