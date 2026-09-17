@@ -1,0 +1,1 @@
+{"generated":"2026-09-17T13:06:01.418Z","commit":"27c0af0ee5f63d587b87fa64191cd8cd268e1e36","build_url":"https://builds.giellalt.org/pipelines/lang-tgl/builds/34","suites":[{"id":"verbs","title":"verbs","kind":"lemma","lexc":"verbs.lexc","lemmas":41,"tested":41,"success_pct":63.41463414634146,"truncated":false,"failures":15}]}
